@@ -1,0 +1,253 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+  line-height: 1.5em;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+
+.container {
+  padding-left: 200px;
+  padding-right: 190px;
+  min-height: calc(100% - 80px);
+  margin-bottom: -50px;
+}
+
+.container .column {
+  position: relative;
+  float: left;
+}
+
+.center {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.left {
+  width: 180px;
+  padding: 0 10px;
+  right: 240px;
+  margin-left: -100%;
+}
+
+.right {
+  width: 130px;
+  padding: 0 10px;
+  margin-right: -100%;
+}
+
+.footer {
+  clear: both;
+}
+.container {
+  overflow: hidden;
+}
+.container .column {
+  padding-bottom: 1001em;
+  margin-bottom: -1000em;
+}
+
+.footer-wrapper {
+  float: left;
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+
+p {
+  color: #555;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul a {
+  color: darkgreen;
+  text-decoration: none;
+}
+.header,
+.footer {
+  font-size: large;
+  padding: 0.3em;
+  background: #bcce98;
+}
+.header {
+  height: 60px;
+}
+
+.left {
+  background: #dae9bc;
+}
+.right {
+  background: #f7fdeb;
+}
+.center {
+  background: #fff;
+}
+.container .column {
+  padding-top: 1em;
+}
+.facebook_logo {
+  position: static;
+  float: right;
+  padding: 10px;
+  width: 35px;
+}
+
+.styletext1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.styletext2 {
+  font-size: 60px;
+  font-weight: lighter;
+  color: greenyellow;
+  background-color: black;
+  margin: 30px 0;
+  max-width: fit-content;
+  line-height: 60px;
+}
+.styletext3 {
+  font-size: 200px;
+  font-weight: bolder;
+  font-family: Pixelify Sans;
+  color: rgba(103, 9, 255, 0.856);
+  background-color: rgba(0, 0, 0, 0.11);
+  margin: 60px 0;
+  max-width: fit-content;
+  line-height: 230px;
+}
+.videozele {
+  display: block;
+}
+table,
+th,
+td {
+  border: 2px solid white;
+  font-size: 30px;
+}
+
+td {
+  background-color: white;
+}
+.table_grey_background {
+  border: 2px solid grey;
+}
+
+#slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+a.link {
+  padding: 10px 25px;
+  background-color: #4ca74c;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.slider-general {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.slider {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slider-img.active {
+  opacity: 1;
+}
+
+.slider img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slider .prev {
+  left: 10px;
+}
+
+.slider .next {
+  right: 10px;
+}
+
+.close_slider,
+.auto_slider {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 10px;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  border-radius: 0 0 30px 30px;
+  padding: 10px;
+}
+
+/* Стиль для каждой точки */
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: black; /* Цвет точек */
+  cursor: pointer;
+}
+
+/* Стиль активной точки */
+.dot.active {
+  background-color: white; /* Цвет активной точки */
+}
