@@ -1,0 +1,29 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# build output
+cmake-build-*/
+build/
+out/
+*.exe
+*.obj
+*.o
+*.class
+
+# archives and documents
+*.7z
+*.zip
+*.docx
+*.pdf
+
+# secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db

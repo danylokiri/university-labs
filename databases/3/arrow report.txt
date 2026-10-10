@@ -1,0 +1,152 @@
+
+Arrow Name: бригади де не вистачає техніки
+Arrow Status: WORKING
+Arrow Source: пошук робітників  і техніки
+Arrow Source Type: Output
+Arrow Dest.: пошук підходящих культур  і перевірка на їх використання
+Arrow Dest. Type: Input
+
+Arrow Name: заявки на транзакції
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Input
+Arrow Dest.: покупка техніки
+Arrow Dest. Type: Input
+
+Arrow Dest.: керування робочими
+Arrow Dest. Type: Input
+
+Arrow Name: звіт бригади що мають зайву техніку
+Arrow Status: WORKING
+Arrow Source: пошук бригад з зайвими машинами
+Arrow Source Type: Output
+Arrow Dest.: { Border }
+Arrow Dest. Type: Output
+
+Arrow Name: звіт площа
+Arrow Status: WORKING
+Arrow Source: керування участками і площою
+Arrow Source Type: Output
+Arrow Dest.: { Border }
+Arrow Dest. Type: Output
+
+Arrow Name: звіт по транзакціям
+Arrow Status: WORKING
+Arrow Source: покупка техніки
+Arrow Source Type: Output
+Arrow Dest.: { Border }
+Arrow Dest. Type: Output
+
+Arrow Source: керування робочими
+Arrow Source Type: Output
+
+Arrow Name: звіт робочі і техніка з бригади
+Arrow Status: WORKING
+Arrow Source: пошук підходящих культур  і перевірка на їх використання
+Arrow Source Type: Output
+Arrow Dest.: { Border }
+Arrow Dest. Type: Output
+
+Arrow Name: звіт участки з порушеннями
+Arrow Status: WORKING
+Arrow Source: пошук участвків з порушеннями
+Arrow Source Type: Output
+Arrow Dest.: { Border }
+Arrow Dest. Type: Output
+
+Arrow Name: Інформація про бригади і техніку
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Input
+Arrow Dest.: пошук робітників  і техніки
+Arrow Dest. Type: Input
+
+Arrow Dest.: пошук бригад з зайвими машинами
+Arrow Dest. Type: Input
+
+Arrow Dest.: покупка техніки
+Arrow Dest. Type: Input
+
+Arrow Dest.: керування робочими
+Arrow Dest. Type: Input
+
+Arrow Name: Інформація про культури
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Input
+Arrow Dest.: керування участками і площою
+Arrow Dest. Type: Input
+
+Arrow Dest.: пошук підходящих культур  і перевірка на їх використання
+Arrow Dest. Type: Input
+
+Arrow Dest.: пошук участвків з порушеннями
+Arrow Dest. Type: Input
+
+Arrow Name: Інформація про участки
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Input
+Arrow Dest.: керування участками і площою
+Arrow Dest. Type: Input
+
+Arrow Dest.: пошук участвків з порушеннями
+Arrow Dest. Type: Input
+
+Arrow Name: норми для робітників і техніки
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Control
+Arrow Dest.: пошук робітників  і техніки
+Arrow Dest. Type: Control
+
+Arrow Dest.: пошук бригад з зайвими машинами
+Arrow Dest. Type: Control
+
+Arrow Dest.: покупка техніки
+Arrow Dest. Type: Control
+
+Arrow Dest.: керування робочими
+Arrow Dest. Type: Control
+
+Arrow Name: норми роботи з культурами
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Control
+Arrow Dest.: керування участками і площою
+Arrow Dest. Type: Control
+
+Arrow Dest.: пошук підходящих культур  і перевірка на їх використання
+Arrow Dest. Type: Control
+
+Arrow Dest.: пошук участвків з порушеннями
+Arrow Dest. Type: Control
+
+Arrow Name: система керування інформацією
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Mechanism
+Arrow Dest.: керування участками і площою
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: пошук робітників  і техніки
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: пошук підходящих культур  і перевірка на їх використання
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: пошук бригад з зайвими машинами
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: пошук участвків з порушеннями
+Arrow Dest. Type: Mechanism
+
+Arrow Name: система рахування і аналізу даних
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Mechanism
+Arrow Dest.: пошук підходящих культур  і перевірка на їх використання
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: пошук бригад з зайвими машинами
+Arrow Dest. Type: Mechanism

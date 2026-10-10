@@ -1,0 +1,60 @@
+Report for Diagram: A-0, Керування фермою
+
+
+Activity Name: Керування фермою
+Activity Status: WORKING
+Activity Author: кірієнко данило
+Object Type: Activity
+Activity Number: A0
+
+Link Name: Інформація про участки
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: Інформація про культури
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: Інформація про бригади і техніку
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: система рахування і аналізу даних
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: норми роботи з культурами
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: норми для робітників і техніки
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: звіт робочі і техніка з бригади
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: звіт участки з порушеннями
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: звіт площа
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: звіт бригади що мають зайву техніку
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: система керування інформацією
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: заявки на транзакції
+Link Status: WORKING
+Link Author: кірієнко данило
+
+Link Name: звіт по транзакціям
+Link Status: WORKING
+Link Author: кірієнко данило

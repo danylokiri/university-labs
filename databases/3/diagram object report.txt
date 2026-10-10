@@ -1,0 +1,106 @@
+
+Activity Name: Керування фермою
+Activity Number: 0
+Activity Status: WORKING
+Object Type: Activity
+Input Name: Інформація про участки
+Control Name: норми роботи з культурами
+Output Name: звіт площа
+Mechanism Name: система керування інформацією
+
+Input Name: Інформація про культури
+Control Name: норми для робітників і техніки
+Output Name: звіт робочі і техніка з бригади
+Mechanism Name: система рахування і аналізу даних
+
+Input Name: Інформація про бригади і техніку
+Output Name: звіт бригади що мають зайву техніку
+
+Input Name: заявки на транзакції
+Output Name: звіт участки з порушеннями
+
+Output Name: звіт по транзакціям
+
+Activity Name: керування участками і площою
+Activity Number:   1
+Activity Status: WORKING
+Object Type: Activity
+Input Name: Інформація про участки
+Control Name: норми роботи з культурами
+Output Name: звіт площа
+Mechanism Name: система керування інформацією
+
+Input Name: Інформація про культури
+
+Activity Name: пошук робітників  і техніки
+Activity Number:   2
+Activity Status: WORKING
+Object Type: Activity
+Input Name: Інформація про бригади і техніку
+Control Name: норми для робітників і техніки
+Output Name: бригади де не вистачає техніки
+Mechanism Name: система керування інформацією
+
+Activity Name: пошук підходящих культур  і перевірка на їх використання
+Activity Number:   3
+Activity Status: WORKING
+Object Type: Activity
+Input Name: бригади де не вистачає техніки
+Control Name: норми роботи з культурами
+Output Name: звіт робочі і техніка з бригади
+Mechanism Name: система керування інформацією
+
+Input Name: Інформація про культури
+Mechanism Name: система рахування і аналізу даних
+
+Activity Name: пошук бригад з зайвими машинами
+Activity Number:   4
+Activity Status: WORKING
+Object Type: Activity
+Input Name: Інформація про бригади і техніку
+Control Name: норми для робітників і техніки
+Output Name: звіт бригади що мають зайву техніку
+Mechanism Name: система рахування і аналізу даних
+
+Mechanism Name: система керування інформацією
+
+Activity Name: пошук участвків з порушеннями
+Activity Number:   5
+Activity Status: WORKING
+Object Type: Activity
+Input Name: Інформація про культури
+Control Name: норми роботи з культурами
+Output Name: звіт участки з порушеннями
+Mechanism Name: система керування інформацією
+
+Input Name: Інформація про участки
+
+Activity Name: транзакції
+Activity Number:   6
+Activity Status: WORKING
+Object Type: Activity
+Input Name: Інформація про бригади і техніку
+Control Name: норми для робітників і техніки
+Output Name: звіт по транзакціям
+
+Input Name: заявки на транзакції
+
+Activity Name: покупка техніки
+Activity Number:     61
+Activity Status: WORKING
+Object Type: Activity
+Input Name: Інформація про бригади і техніку
+Control Name: норми для робітників і техніки
+Output Name: звіт по транзакціям
+
+Input Name: заявки на транзакції
+
+Activity Name: керування робочими
+Activity Number:     62
+Activity Status: WORKING
+Object Type: Activity
+Input Name: заявки на транзакції
+Control Name: норми для робітників і техніки
+Output Name: звіт по транзакціям
+
+Input Name: Інформація про бригади і техніку
