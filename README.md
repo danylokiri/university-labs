@@ -2,7 +2,7 @@
 
 Lab work and small study projects from my university courses, collected in one place.
 These are learning exercises, not production code. My larger projects live in separate repositories:
-[svit-go](https://github.com/ddanq4/svit-go), [volunteer-hub](https://github.com/ddanq4/volunteer-hub), [bookworm](https://github.com/ddanq4/bookworm).
+[svit-go](https://github.com/danylokiri/svit-go), [volunteer-hub](https://github.com/danylokiri/volunteer-hub), [bookworm](https://github.com/danylokiri/bookworm), [diploma-registry](https://github.com/danylokiri/diploma-registry).
 
 | Folder | Course | Stack |
 |---|---|---|

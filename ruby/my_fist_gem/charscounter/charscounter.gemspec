@@ -5,8 +5,8 @@ require_relative "lib/charscounter/version"
 Gem::Specification.new do |spec|
   spec.name = "charscounter"
   spec.version = Charscounter::VERSION
-  spec.authors = ["ddanq4"]
-  spec.email = ["120566535+ddanq4@users.noreply.github.com"]
+  spec.authors = ["danylokiri"]
+  spec.email = ["120566535+danylokiri@users.noreply.github.com"]
   spec.summary = "Частотний аналіз символів"
   spec.description = "Гем для підрахунку кількогсті входжень кожного символа в рядку."
   spec.required_ruby_version = ">= 3.0.0"

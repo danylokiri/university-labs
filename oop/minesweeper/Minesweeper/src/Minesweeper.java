@@ -533,7 +533,7 @@ public class Minesweeper {
             if (!readmeFile.exists()) {
                 try (BufferedWriter writer = new BufferedWriter(new FileWriter(readmeFile))) {
                     writer.write("Minesweeper game\n\n");
-                    writer.write("Creator: ddanq4\n\n");
+                    writer.write("Creator: danylokiri\n\n");
                     writer.write("You can use this product as you wish.\n\n");
                     writer.write("Ukraine, Kharkiv\n");
                     writer.write("December 2023\n");

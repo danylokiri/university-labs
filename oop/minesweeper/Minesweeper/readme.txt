@@ -1,6 +1,6 @@
 Minesweeper game
 
-Creator: ddanq4
+Creator: danylokiri
 
 You can use this product as you wish.
 
