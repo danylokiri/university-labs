@@ -1,0 +1,18 @@
+Practical Work 4 - CASE Tools for Business-Process Modelling: DFD and IDEF3 Methodologies
+
+Topic: CASE tools for modelling information-system business processes, DFD and IDEF3 methodologies.
+Goal: Gain experience in creating DFD and IDEF3 business-process models using the CASE tool BPwin.
+
+Task:
+Task 1. Using the subject assigned by the instructor, build the model described in the
+theoretical part, using your own group, full name and the company name given by the variant
+in the model names. In BPwin, create a functional model of an information system that meets
+these requirements:
+ - methodology: DFD;
+ - at least 3 levels of detail;
+ - at least 4 diagrams, one of which is in IDEF3.
+Task 2. Analyse the correspondence between the model of the automated processes and the
+functional model of the information system, and explain any discrepancies found.
+
+Notes: Subject area of the variant: Farm. The work builds on the previous practical work (IDEF0 model).
+Tool: BPwin.

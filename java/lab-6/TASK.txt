@@ -1,0 +1,12 @@
+Lab 6 - Java Net Programming (Multicast sockets)
+
+Topic: Java network programming, UDP echo client/server and multicast sockets
+Goal: Learn to build network applications on UDP and multicast sockets in Java.
+
+Task:
+1. Write a set of programs (a UDP echo client and a UDP echo server) that can be used to test the operation of a network. To make sure the network works properly between two computers, the echo client can be run on one computer and connected to the echo server on another computer.
+2. Text mode conferencing and bulletin board systems (BBS) are among the oldest ways of network communication: users exchange text messages through a terminal. Based on multicast sockets, develop a simple application that supports a text conference. The application performs two tasks:
+   - sending text messages of one conference participant to all other participants;
+   - receiving such text messages by all conference participants.
+
+Notes: Course: Cross-platform programming. Both a terminal version and a version with a graphical interface (participant names are chosen at program start) were produced.

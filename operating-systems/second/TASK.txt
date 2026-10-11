@@ -1,0 +1,17 @@
+Operating Systems, Lab 2: Interaction with the Runtime Environment
+
+Topic: Command-line arguments, options, environment variables, information about the user and the computer (C, Linux).
+Goal: Write programs that interact with the execution environment: process command-line arguments and options, work with environment variables, and obtain information about the user and the host.
+
+Task:
+1. Write a function that solves the quadratic equation a*x^2 + b*x + c = 0 for arbitrary coefficients a, b, c. Pass the coefficients to main through command-line parameters.
+2. Write a program that accepts three short options: -h (usage help, then exit), -o out_file_name (a non-default name of the result file), -c (a special mode of operation). Additional arguments can specify the names of input files to process. Print a message indicating the operating mode of the program.
+3. Extend the program to accept the corresponding long options as well: --help, --output out_file_name and --compile.
+4. Write a program that prints the full list of environment variables.
+5. Write a program that prints the value of a specific environment variable named at the program call. If no variable name is given, print the usage rules.
+6. Write a program that assigns a given value to a given environment variable, then checks the newly set variable and prints the resulting variable-value pair to standard output. If the required information is not given, print a usage recommendation.
+7. Write a program that removes a given variable from the environment. If the name of the variable is not given, remove all environment variables. After that, print the current state of the environment to standard output.
+8. Write a program that obtains information about the user who started it.
+9. Write a program that obtains information about the computer it runs on.
+
+Notes: All programs are implemented in one file (main.c) with a menu; a makefile builds the executable.

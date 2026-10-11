@@ -1,0 +1,9 @@
+Practical 9 - Comparison of Timsort and Quicksort
+
+Topic: Comparative performance study of Timsort and Quick sort
+Goal: Obtain practical confirmation of the theoretical complexity estimates of the algorithms for the "best", "worst" and "average" cases.
+
+Task:
+Carry out a comparative study of the performance of the Timsort and Quick sort sorting algorithms, following a given methodology for testing the performance of algorithms. The main goal is to obtain practical confirmation of the theoretical complexity estimates for the best, worst and average cases. Prepare a report on the results of the comparison.
+
+Notes: Present the source code of the programs (Timsort and Quick sort), the input data files used and the measured results.

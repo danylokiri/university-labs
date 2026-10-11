@@ -1,0 +1,10 @@
+Machine Learning, Lab 4: Neural Networks for Classification
+
+Topic: Feed-forward neural networks; effect of the number of neurons, activation function and learning rate.
+Goal: Get practical experience with neural network architectures and training hyperparameters.
+
+Task:
+1. Play with the TensorFlow Playground and save a set of screenshots (at least 10) showing different configurations (datasets, number of layers and neurons, activation functions, regularisation, noise, input features), with short comments.
+2. Solve the classification problem on the dataset chosen in an earlier classification lab: vary the number of neurons, the activation function and the learning rate (optionally also a learning-rate schedule), and compare the results.
+
+Notes: In this work the network is a one-hidden-layer perceptron implemented with NumPy (sigmoid, tanh and ReLU activations compared), classifying the crab dataset by the 3-class attribute Sex; the best accuracy and the best speed/quality trade-off are reported for 8 hidden neurons and learning rate 0.05.

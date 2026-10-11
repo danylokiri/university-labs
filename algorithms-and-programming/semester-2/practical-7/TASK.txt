@@ -1,0 +1,25 @@
+Practical 7 - Unions
+
+Topic: Unions inside structures, dynamic array of structures
+Goal: Organise the processing of a library card index (books and magazines) as a dynamic array of structures that contain a union.
+
+Task:
+Organise the processing of a library card index (books and magazines) as a dynamic array of a structure with a union.
+Common fields:
+   - title;
+   - year of publication;
+   - number of pages.
+Variant fields:
+   - for a book: author;
+   - for a magazine: issue, number of articles.
+The program contains a menu with these functions:
+1. Enter a book/magazine (taking the variant fields into account).
+2. Print information about all books.
+3. Print information about all magazines.
+4. Print the total number of articles in all magazines.
+
+Requirements:
+- implement the functions of all operations on the arrays separately;
+- organise the operations as an interface menu.
+
+Notes: Present the task statement and results, the source code files (*.c) and screenshots of the program running.

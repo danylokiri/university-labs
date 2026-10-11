@@ -1,0 +1,15 @@
+Lab 4 - Subnets with non-standard masks; configuring OSPF
+
+Topic: Creating subnets using non-standard masks; configuring the OSPF protocol in networks connected by several routers
+Goal: Learn to divide a network into subnets and configure the OSPF protocol in networks connected by several routers.
+
+Task:
+1. Divide a network into 3 or more subnets using non-standard masks.
+   Goal of the task: improve the understanding of how masks work in a network and how the available pool of IP addresses can be used optimally.
+2. Configure the OSPF protocol on the routers in the network.
+   Goal of the task: configure OSPF on the routers to enable dynamic routing (optionally enable DHCP on the routers so that default gateways need not be set manually).
+3. Configure a passive interface.
+   Goal of the task: prohibit sending OSPF packets into the internal network.
+4. Answer the control questions, including how OSPF works (neighbor adjacency, exchange of LSAs, link-state database, shortest-path computation with Dijkstra's algorithm, adaptation to topology changes).
+
+Notes: Tool: Cisco Packet Tracer (the .pkt project files are not included in the repository).

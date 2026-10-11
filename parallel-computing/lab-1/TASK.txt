@@ -1,0 +1,21 @@
+Lab 1 - Organising the Parallel Implementation of Sorting Methods
+
+Topic: Organisation of parallel implementation of sorting methods (bubble sort, Shell sort, quick sort).
+Goal: Learn how parallel sorting algorithms are built on the basic "compare-exchange" operation, study the sequential versions of bubble, Shell and quick sort, and measure how their running time depends on the input size.
+
+Task:
+1. Study the technique for parallelising the computation of partial sums of a sequence of numbers (used as a model decomposition problem).
+2. Develop sequential programs for bubble sort, Shell sort and quick sort, with measurement of execution time.
+3. Identify the information dependencies in each algorithm and assess the possibilities for executing them in parallel (odd-even transposition for bubble sort, hypercube-based parallel Shell sort, hypercube-based parallel quick sort, using the "compare-and-split" block operation).
+4. Run at least five computational experiments on arrays of different sizes.
+5. Plot execution time against data size and draw conclusions.
+6. Answer the control questions:
+   - the idea of bubble sort;
+   - the idea of the odd-even transposition algorithm;
+   - the efficiency parameters of a parallel sorting algorithm;
+   - the idea of Shell sort and the specifics of its parallelisation;
+   - the idea of quick sort and the specifics of organising its parallel version;
+   - efficiency analysis of Shell sort;
+   - efficiency analysis of quick sort.
+
+Notes: No variant table is given; array sizes are chosen freely (the reference experiments used n = 1000, 2000, 5000, 10000, 20000, 50000). Programs are written in C++ and run sequentially; the parallel schemes are analysed theoretically. Speedup and efficiency of parallel sorting should be judged against the best sequential algorithm (O(n log n)), not against bubble sort.

@@ -1,0 +1,20 @@
+Operating Systems, Lab 1, Task 4: Static and Shared Libraries (ArrayList)
+
+Topic: C programmer toolchain: libraries, make, project layout.
+Goal: Build an ArrayList pseudo-type in C, package it as a static and as a dynamic (shared) library, and link both variants to a project.
+
+Task:
+1. Implement a dynamic array ("ArrayList") as a structure with functions serving it (pseudo-type), with encapsulation and the possibility of polymorphism at the required level:
+   - create / destroy the list;
+   - add an element to the end;
+   - insert an element at a given position;
+   - get the number of elements;
+   - remove an element by index;
+   - set (update) the value of an element;
+   - get the value of an element by index.
+   Handle dynamic memory carefully (allocation and release).
+2. Create a static library and a dynamic (shared) library with the corresponding functions and declarations and connect them to the project.
+3. Create a convenient project structure (directories for *.c, *.h files and binaries).
+4. Produce two variants of the executable: one linked with the static library and one with the dynamic library. Compare their sizes.
+5. Write a simple looping console menu that lets the user choose the actions above.
+6. Additional sub-task: create a makefile for automatic building of the project and its parts.

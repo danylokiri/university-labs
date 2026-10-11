@@ -1,0 +1,19 @@
+Lab 4 - Java Net Programming (TCP sockets)
+
+Topic: Java network programming, TCP sockets
+Goal: Learn to build a client-server application on TCP sockets in Java.
+
+Task:
+Write a program that models a metro "card system". Students are issued named plastic travel cards (a card carries only an identification code, the student identifier). The system supports a limited set of operations:
+- issuing a new card to a client and registering it in the system;
+- getting information about the client;
+- topping up the account;
+- paying for a trip (withdrawing some amount from the account);
+- getting the balance on the card.
+
+To do this:
+1. Develop a server that stores information about the issued cards and performs the main operations.
+2. Create a client that, using a card with an identifier, sends requests for the operations it needs and receives messages about their execution.
+3. To increase the reliability of the system, implement the communication between the computers using the TCP protocol.
+
+Notes: Course: Cross-platform programming. Labs 4 and 5 were reported together in the source documents; this lab covers the TCP assignment.

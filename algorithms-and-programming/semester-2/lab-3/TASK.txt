@@ -1,0 +1,37 @@
+Lab 3 - Files
+
+Topic: Binary files and an array of structures
+Goal: Implement storing, displaying, adding, deleting and searching student records in a dynamic array of structures, using a binary file to exchange data between the file and the program.
+
+Task:
+Implement storage, output, addition, deletion and search of students in the array of structures from the previous lab (structures), using a binary file. The dynamic array of structures is used for exchanging information between the file and the program.
+
+Requirements: organise the following two-level menu:
+   1. add student
+   2. search student
+   3. delete student
+   4. classification by categories
+   5. print group
+   6. exit
+
+Item 1. Add a new student to the existing ones, saving to the file and sorting by surname. First load the data from the file into the working array (if the file exists).
+Item 2. First load the data from the file into the working array (if the file exists). Provide search with complete information (sub-menu):
+   1. by surname of the student - the user enters a surname; all information about this student and about students with the same surname is displayed;
+   2. by range of performance - the user enters two numbers in the range 0 to 100; the list of students whose average score falls into this range is displayed;
+   3. by date of birth - the user enters the day and month of birth (format "dd.mm"); information about the student or several students whose birth date matches the entered one is displayed.
+Item 3. Delete a student with the given number from the working array (if such exists). First load the data from the file into the working array (if the file exists). After the deletion, rewrite the whole file.
+Item 4. Item 4 has a sub-menu (3 sub-items) for viewing separate categories of students:
+   1. high score - all information about students with scores from 70 to 100 is printed to the console;
+   2. low score - all information about students with scores from 50 to 69 is printed to the console;
+   3. no credit - all information about students with scores from 0 to 49 is printed to the console.
+   For each category a separate text file (text data format) is created, into which, when item 4 is chosen, the students of the corresponding category are written (the data can be viewed in Notepad).
+Item 5. Print the information about all students from the working array. First load the data from the file into the working array (if the file exists).
+
+The user has the right to choose any menu item immediately after starting the program. The program must work adequately and not "crash".
+
+Additional requirements:
+- implement the functions of all operations on the arrays separately;
+- organise the operations in the form of an interface menu;
+- print format of the student information is a table with the columns: No., Surname, First name, Patronymic, Date of birth, Average score.
+
+Notes: Present the source code, screenshots of the program running and the data files.

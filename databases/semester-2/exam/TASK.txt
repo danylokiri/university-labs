@@ -1,0 +1,35 @@
+Exam Task - Database Organisation and Knowledge (Exam Ticket 10, Subject Area 10: Conference Database)
+
+Topic: Database for supporting the work of a conference.
+Goal: Demonstrate the ability to design, implement and program a database in MS SQL Server.
+
+Structure: the exam consists of a test (25 points; add the test result to the report) and a practical
+part (25 points).
+
+Task (practical part, 5 points each):
+1. Build a logical model (3-5 normalised entities).
+2. Describe the constraints (5 constraints needed to maintain database integrity, necessarily related
+   to the subject area) and state the type each one belongs to.
+3. Fill the tables with 10 records each. Describe the process and add the corresponding screenshots.
+4. Use aggregate functions inside a multi-statement function (write one).
+5. Write one dynamic cursor. Run it several times and analyse its behaviour.
+
+Subject area 10:
+A database for servicing the work of a conference. The database must contain a directory of the
+conference participants (last name, first name, patronymic, academic degree, academic title, research
+field, place of work, department, position, country, city, postal code, address, work phone, home
+phone, e-mail) and information related to participation in the conference (speaker or attendee, date
+the 1st invitation was sent, date the application was received, report topic, marks of receipt of the
+abstracts, date the 2nd invitation was sent, date the registration fee was received, amount of the
+registration fee received, arrival confirmation, departure date, need for a hotel).
+In addition to the SQL queries that create the database tables, develop a package of procedures and
+functions that makes it possible to:
+1) for a given date of the 1st mailing, display the list of invitees and count them;
+2) add invitees to the conference, with the registration fee and the date it was paid;
+3) display the list of invited persons with the date their registration fee was paid;
+4) for a given date interval, list the participants who paid the registration fee within that interval;
+5) for a given city, list the titles of the reports received from that city;
+6) for a given city, list those who need a hotel.
+Also develop triggers that provide cascading changes in the related tables.
+
+Notes: Tools: MS SQL Server (T-SQL).

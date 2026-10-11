@@ -1,0 +1,12 @@
+Lab 1 - Analysis of the blockchain of the Bitcoin cryptocurrency platform
+
+Topic: Analysis of the Bitcoin blockchain
+Goal: Get practical familiarity with the Bitcoin network using resources that allow browsing the blockchains of cryptocurrency platforms (blockchain explorers).
+
+Task:
+1. Using a Bitcoin blockchain explorer, identify the main fields of a block (block height, timestamp, block hash, previous block hash, nonce, difficulty, transactions, version, block weight) and describe each of them.
+2. Investigate 12 blocks, each generated in a different month of the same year, and 5 blocks generated in different years.
+3. Build graphs of the change of mining difficulty based on the collected data and describe the observed trend (Bitcoin adjusts difficulty every 2016 blocks).
+4. Answer the control questions: how a blockchain differs from a database; what a blockchain is; how mining works in Bitcoin (Proof-of-Work); the structure of a Bitcoin block and the role of the Merkle root; what mining difficulty is and how it is adjusted.
+
+Notes: Data source: a public Bitcoin blockchain explorer. The task statement in the source report is only partially present; the list above is reconstructed from the stated goal and the described work.

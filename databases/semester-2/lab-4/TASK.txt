@@ -1,0 +1,28 @@
+Laboratory Work 4 - User-Defined Functions in MS SQL
+
+Topic: Functions in MS SQL Server (scalar, inline and multi-statement functions).
+Goal: Become familiar with the concept of functions in MS SQL Server, in particular scalar and
+window functions, and apply them in practical queries; study how scalar functions process and
+transform data in databases.
+
+Task:
+1. Take the test and add a screenshot with the score to the report.
+2. For your main variant (the one used in practical works 3, 4, 5 and 6), add the description of the
+   subject area and the logical and physical models (from practical work 5). Run the following
+   queries in any convenient environment: Docker, a virtual machine with MS SQL, a file database,
+   or a locally installed MS SQL instance.
+3. Scalar functions: write 3 examples of your own scalar functions on the theme of your variant.
+4. Inline (table-valued) functions: write 3 examples of your own inline functions.
+5. Multi-statement (table-valued) functions: write 3 examples of your own functions.
+6. Using the existing function types, implement the queries of your variant as functions, choosing
+   the appropriate function type for each query.
+   (For tasks 3-6: built-in, window or aggregate functions may be used if needed; add screenshots of
+   the queries and their results to the report; save the code in FUNCTIONS.SQL.)
+7. Query performance analysis: use the execution plan (EXPLAIN / Execution Plan in MS SQL); add
+   screenshots with explanation and analysis of the previous queries.
+8. Provide T-SQL scripts: SETUP.SQL (create tables / alter structure), INSERT.SQL (insert data),
+   UPDATE.SQL (change / update / delete data), QUERY.SQL (queries), FUNCTIONS.SQL (functions).
+9. Run the queries for your variant according to the subject-area description of the main variant.
+10. Add conclusions and finalise the report.
+
+Notes: Subject area of the variant: Farm. Tools: MS SQL Server.

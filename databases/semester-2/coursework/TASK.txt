@@ -1,0 +1,74 @@
+Course Project - Design and Implementation of a Database for Farm Management
+
+Topic: Design and implementation of a database for managing a farm.
+Goal: Develop an information system based on a relational database that allows effective management
+of an agricultural enterprise: monitoring of machinery, work crews (brigades), plots, crops and the
+suitability of fertilisers.
+
+Source data: Development of a database for managing a farm, including the table structure, the data
+processing rules, the formulation of queries and the system requirements.
+
+Required content of the explanatory note:
+1) Analysis of the subject environment
+2) Building the ER model
+3) Building the relational schema from the ER model
+4) Creating the database in the format of the chosen DBMS (MS SQL Server)
+5) Creating database users
+6) Importing data into the created database using DBMS tools
+7) Writing SQL queries
+8) Query optimisation (indexes, cursors)
+
+Main tasks:
+- build a conceptual ER model from the subject environment;
+- identify entities, attributes and relationships;
+- normalise the data to 3NF;
+- develop the database structure in MS SQL Server;
+- implement tables, relationships and integrity constraints;
+- create views, triggers, stored procedures and functions;
+- implement DML queries according to user needs.
+
+Requirements for the database:
+- implement the business rules on the match between crops and fertilisers and on the assignment of
+  brigades and machinery;
+- ensure logical data integrity through primary / foreign keys and checks;
+- implement triggers, procedures, functions and views as required by the course project.
+
+Subject environment:
+The farm has several land plots with unique numbers. Each plot is characterised by its area, the
+presence or absence of irrigation, and the crop sown in the current season. The average yield of each
+grown crop is known, as well as the list of fertilisers applied to each plot this season. For each crop
+the following is stored: name, yield per plot, whether it needs irrigation, and which fertilisers it
+needs. Each plot is served by one brigade, but one brigade may serve several plots. A brigade has a
+unique number and is described by: the brigade leader's name, the workers' names, and the number of
+units of each type of agricultural machinery. For each worker it is known which types of machinery
+(one, several or none) he can operate. Workers work on any plot of their brigade, using the machinery
+assigned to the brigade.
+The system covers: farms / plots (area, crop), crops (name, season, recommended amount and type of
+fertiliser), brigades (assigned to a farm), workers (personal data, position, hire date, salary,
+status active / inactive, related transactions), machinery (type, purchase date, technical condition,
+history of use; bound to a farm and, if necessary, to a brigade) and transactions (date, type, amount:
+payroll, expenses, write-offs, etc.).
+Business processes: managing plots and area; managing workers and machinery; checking that crops,
+fertilisers and plots match the norms; controlling brigades (shortage or surplus of resources); logging
+transactions (purchase of machinery, hiring or dismissal of workers, etc.).
+
+Queries to implement:
+- determine the area allocated on the farm to each crop, with the number of plots on which it is sown;
+- list all workers of a given brigade with the machinery they can operate, if the brigade has that
+  machinery, and also determine the machinery types the workers can operate but which the brigade
+  does not have (although other brigades do);
+- for the plots of a given brigade, find the crop with the maximum yield and check whether it is sown
+  in the current season on the plot where its yield is highest;
+- find the brigades that have a given type of machinery in a quantity greater than the average
+  quantity of that machinery across all brigades on the farm;
+- compile a list of plots (with the names of their brigade leaders) where the applied fertilisers do
+  not match the crop or the irrigation requirements are not met.
+
+Expected reports: area report (crops per plot and area per farm); workers and machinery per brigade;
+brigades with surplus machinery; plots with violations; transaction report (filters by type, date,
+amount and affected object - machinery or worker).
+
+Notes: Deliverables are the explanatory note (introduction, analysis of the subject environment and
+existing software, problem statement, ER model, relational model, implementation in MS SQL Server,
+queries, functions, stored procedures, triggers, optimisation / indexes / cursors, conclusion,
+references, appendices with code) and the SQL scripts, plus a presentation.

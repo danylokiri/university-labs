@@ -1,0 +1,23 @@
+Practical 6 - Dynamic Array of Structures
+
+Topic: Dynamic arrays of structures
+Goal: Practise managing a dynamic array of structures, including search operations, through a menu.
+
+Task:
+Use the structure "device", which has 4 members (fields):
+   - inventory number;
+   - name;
+   - year of manufacture;
+   - cost.
+Declare a dynamic array of structures of type device. Implement the following functionality:
+1. Add a device;
+2. Delete a device (by inventory number);
+3. Print the list of devices;
+4. Search (year of manufacture) - print the devices found;
+5. Search (price range) - print the devices found;
+6. Search (most expensive) - print the devices found;
+7. Exit.
+
+Print format of the devices: a table with the columns inventory number, name, year, price.
+
+Notes: Present the source code and screenshots of the program running.

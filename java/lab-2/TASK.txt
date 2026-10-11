@@ -1,0 +1,16 @@
+Lab 2 - Java Serialization
+
+Topic: Java Serialization
+Goal: Study the capabilities of the Java API for serialization and deserialization of objects.
+
+Task:
+Develop a program that keeps records of readers and books in a library. Create a set of classes representing the library (Author, Book, Bookshelf, Reader, Rental/Loan, ...). Each class must have a default constructor, getters and setters, an overridden toString() method and methods implementing basic functionality. Use the serialization mechanism to save the current state of the system to a file and restore the system from this file.
+
+Implement three versions of the program, each with its own serialization strategy:
+1. all classes of the system are serializable (implement java.io.Serializable);
+2. not all classes of the system are serializable (implement java.io.Serializable): the classes Author, Reader and Book are NOT serializable;
+3. the classes of the system implement java.io.Externalizable.
+
+The first version must be a console program whose main function demonstrates the work of the system: a "library" with books and a list of readers is created; several books are issued; the current state of the library is printed; serialization and deserialization are performed; the state of the deserialized system is shown.
+
+Notes: Course: Cross-platform programming. The three versions correspond to the files library.ser, library2.ser and library3.ser in the folder.

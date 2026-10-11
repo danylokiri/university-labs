@@ -1,0 +1,23 @@
+Credit work - Architecture and design patterns of information systems
+
+Topic: Design patterns (examination ticket with a theory question and a programming task)
+Goal: Demonstrate knowledge of design patterns by explaining a pattern and implementing a system that applies design patterns.
+
+Task:
+1. Theory: the Bridge pattern (explain the pattern: its purpose, structure, when it is used and its advantages).
+2. Practice: implement a program for the following assignment.
+
+   Implementation of a filter system for a graphic editor.
+
+   The graphic editor opens image files that are kept in memory as a byte array. The system must support:
+   - a filter mechanism that allows one or several filters to be applied to an image;
+   - adding and removing filters in any order;
+   - easy extension of the system by adding new filters (for example "Black and white", "Blur", "Brightness change").
+
+   Main requirements:
+   - the image must remain a byte array after the filters are applied;
+   - every filter must be independent and be applicable sequentially to the image;
+   - it must be possible to add or remove filters dynamically;
+   - the architecture must be flexible, so that new filters can be added without changing the main code.
+
+Notes: The solution is a console application (ImageFilter interface, FilterPipeline, BlackWhiteFilter, BlurFilter, BrightnessFilter, Main) that loads an image as an 8-bit grayscale byte[] and lets the user manage the filter list through a text menu.

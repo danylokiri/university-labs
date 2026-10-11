@@ -1,0 +1,10 @@
+System Modelling, Practical 2: Identification of the Structure and Parameters of Mathematical Models of Complex Systems
+
+Topic: Approximation of the pump head-flow (H-q) load characteristic by the least-squares method.
+Goal: Approximate the load characteristic of a pump unit and determine the parameters a0, a1, a2 of the model.
+
+Task:
+1. a) A series of measurements of water flow q_i and pressure (head) h_i, i in K, at the outlet of a pump unit of a given type is given, obtained in field experiments at a pumping station (the unit working alone). Approximate the load characteristic H-q of the pump unit using the least-squares method and determine the values of its parameters a0, a1, a2. Write a program implementing the least-squares method or use a standard program. Simplified variant: Cramer's method for solving the normal equations.
+2. b) The same for a series of measurements obtained when the unit works in combination (in parallel) with other units: approximate the load characteristic H-q and determine a0, a1, a2.
+
+Notes: Model used: H(q) = a0*q^2 + a1*q + a2. Data: 31 measurement points, q from 0 to 2400 m^3/h with step 80, H decreasing from about 95 m to 29 m. The normal equations (X^T X) a = X^T H are solved by Cramer's method.

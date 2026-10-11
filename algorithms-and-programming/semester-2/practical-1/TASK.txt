@@ -1,0 +1,15 @@
+Practical 1 - Static Array
+
+Topic: Static two-dimensional arrays
+Goal: Practise filling, processing and printing static two-dimensional arrays, and interpreting binary rows/columns as numbers.
+
+Task:
+1. (0.5 points) Fill a two-dimensional array with the numbers 0-9 in two ways: input from the keyboard; "random" values. Print the resulting array.
+2. (0.5 points) Replace the even values in the array with 0 and the odd values with 1. Print the resulting array.
+3. (0.5 points) Imagine that each row of the array is the binary notation of a decimal number. Convert the rows to decimal numbers and print these numbers. Find the row with the maximum number and print the number of that row.
+4. (0.5 points) Imagine that each column of the array is the binary notation of a decimal number. Convert the columns to decimal numbers and print these numbers. Find the column with the maximum number and print the number of that column.
+
+Requirements:
+1. All arrays are static. The sizes N x M are set by constants in the program code.
+2. Implement the functions for filling, processing and printing the arrays separately.
+3. Optionally: run the program as a two-level interface menu (first level - the number of the task item; second level - the functionality of that item).

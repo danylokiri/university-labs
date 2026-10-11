@@ -1,0 +1,10 @@
+Practical 6 - Multiple Selection (switch)
+
+Topic: The switch statement and handling of invalid input
+Goal: Practise multi-way branching and error handling in C programs.
+
+Task:
+1. Write a "calculator" program that performs addition, subtraction, multiplication and division of real numbers. Check for division by 0. The user enters two real numbers a, b and a character variable char t that specifies the type of operation. Test the program on 4 different pairs of values a, b. Draw a flowchart.
+2. Individual task. Write a program that performs the task, or prints an error message if incorrect data is entered: ask the user for the number of a class period (1, 2, 3, 4 or 5) and print the time when it starts and ends. Draw a flowchart.
+
+Notes: Present the source code, flowcharts and screenshots of the results.

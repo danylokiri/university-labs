@@ -1,0 +1,13 @@
+Neural Networks, Lab 2: Perceptron and the Widrow-Hoff Rule
+
+Topic: The perceptron as the simplest neural network; training with the Widrow-Hoff (delta) rule for binary classification.
+Goal: Become familiar with the perceptron as the simplest neural network and the Widrow-Hoff rule for training it; implement the Widrow-Hoff rule in software for a perceptron that solves a classification problem.
+
+Task:
+1. Create the simplest neural network consisting of a single neuron (perceptron) and train it to solve a binary classification problem, performing the following steps:
+   a. Generate a training set of 2-D points with the make_blobs model (sklearn library). Visualise the obtained classes. Split the generated set into a training and a test sample (85% and 15% respectively).
+   b. Build the simplest neural network (perceptron) with a bias input (fixed 1) and two inputs x1, x2 feeding one output neuron. Set the initial weights randomly in the interval [-0.5, 0.5].
+   c. Implement the Widrow-Hoff rule for training the perceptron.
+   d. Train the network on the training set (set the number of training epochs to at least 200) and test it on the test set. Compare the test results with the target data.
+
+Notes: Class labels are -1 / +1; the program uses numpy, matplotlib and scikit-learn.

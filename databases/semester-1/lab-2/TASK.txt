@@ -1,0 +1,29 @@
+Practical Work 2 - Adapting the School Search Program to a New Input Format
+
+Topic: Using normalization and improving a program that processes a large volume of data.
+Goal: Extend the school search program from the first practical work to handle new input data conditions.
+
+Task:
+1. Modify the program from the first practical work to adapt to a change in the input data format.
+   The output format must be followed strictly.
+2. Previously the single input file students.txt had this record format:
+   StLastName, StFirstName, Grade, Classroom, Bus, TLastName, TFirstName
+   Repeating the teacher's name next to every student takes a lot of space, so the input is
+   now split into two files that replace students.txt:
+   - list.txt, with lines of the form:
+       StLastName, StFirstName, Grade, Classroom, Bus
+       Example: DROP, SHERMAN, 0, 104, 53
+       (student Sherman DROP is in classroom 104 and rides bus No. 53)
+   - teachers.txt, with lines of the form:
+       TLastName, TFirstName, Classroom
+       Example: NIBLER, JERLENE, 104
+       (teacher Jerlene NIBLER teaches in classroom 104)
+3. The information in the new files is exactly the same as in the original students.txt, so the
+   answers to the test searches must be identical in both versions of the program.
+4. Change the school search program from the first practical work to process the new input formats.
+   In addition, design and implement extra search features in the new program.
+5. Take the results of the first practical work and compare them with the results of the second.
+   Add the execution time of each query.
+
+Notes: Implemented in C++ as a console program. Sample data files list.txt and teachers.txt are
+provided with the assignment.

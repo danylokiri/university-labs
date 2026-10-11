@@ -1,0 +1,44 @@
+Laboratory Work 6 - Transactions and Cursors in MS SQL
+
+Topic: Working with transactions, indexes and cursors in MS SQL Server.
+Goal: Become familiar with indexes in Microsoft SQL Server, their purpose, usage and effect on query
+performance; learn how to create, optimise and analyse them; compare ordinary queries, indexed
+queries and cursor-based processing.
+
+Task:
+1. For your main variant (the one used in practical works 3, 4, 5 and 6), add the description of the
+   subject area and the logical and physical models (from practical work 5). Run the queries in any
+   convenient environment (Docker, virtual machine, file database or local MS SQL instance).
+2. Implement a transaction with two operations and a condition that leads to ROLLBACK.
+3. Check @@ERROR to control a transaction.
+4. Use TRY...CATCH in transactions. If an UPDATE operation fails (for example because of a
+   constraint or invalid data), the transaction must be fully cancelled with ROLLBACK TRANSACTION;
+   print the error message in the CATCH block.
+5. Create a transaction that inserts 10,000-100,000 rows (rows from earlier tables may be reused,
+   but it must be shown that the table really contains that many rows).
+6. Create a transaction that modifies one of the functions or procedures by adding, at its start and
+   end, output of timestamps to record its execution time.
+7. Build a summary table "Query execution time" with the rows:
+   - run on the table with many rows;
+   - run with an index (the same query, optimised, on the same table);
+   - run with a cursor, version 1 (the same query implemented with cursors);
+   - run with a cursor, version 2;
+   - run with a cursor, version 3.
+   The query must be "complex": several JOINs, sorting and filtering. Put the result of the plain
+   query into the first row.
+8. Put the result of the same query into the second row, with an index that matches the query
+   parameters (an index is mandatory).
+9. Put the result into the third row, but implement the query with T-SQL cursors. The results must
+   be identical to the previous ones.
+10. Modify the previous query so that the code is executed twice without releasing (DEALLOCATE) the
+    cursor between runs, and put the results into the fourth and fifth rows. Results must again be
+    identical.
+11. Compare the execution times in the summary table and analyse the results. How can the queries
+    be sped up? Which type of query can speed them up? When should cursors be used?
+12. Provide the T-SQL scripts SETUP.SQL, INSERT.SQL, UPDATE.SQL, QUERY.SQL, FUNCTIONS.SQL and
+    CUSOR.SQL (cursors), and a README describing the use of the procedures with a short explanation
+    of the completed tasks.
+13. Add conclusions and finalise the report.
+(For tasks 2-10: add screenshots of the queries and results; save the code in CUSOR.SQL.)
+
+Notes: Subject area of the variant: Farm. Tools: MS SQL Server.

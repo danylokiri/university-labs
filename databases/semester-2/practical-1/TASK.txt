@@ -1,0 +1,28 @@
+Practical Work 1 (semester 2) - Creating, Altering and Dropping Tables, Working with Data, Simple Queries in MS SQL
+
+Topic: Learning to create, alter and drop tables in a database, to work with data and to run the
+simplest queries.
+Goal: Gain experience in writing queries in the relational database model, become familiar with the
+basic operations of relational algebra and learn to apply them to optimise queries and work with data.
+
+Task:
+1. Take the test and add a screenshot with the score to the report.
+2. For your main variant (the one used in laboratory works 3, 4, 5 and 6 of the previous semester),
+   add the description of the subject area (copied from the variant) and the logical and physical
+   models (copied from practical work 5 of the first semester).
+3. Following the example considered in the practical class, build the elements below and add
+   screenshots showing that they work:
+   - connect to the DBMS;
+   - create a database and show the database objects;
+   - create several tables for your variant and fill each table with data;
+   - modify the tables;
+   - delete data and clear the tables;
+   - run simple queries against the created table.
+4. Write the scripts and keep them in a repository, adding the link to the report:
+   - creating tables and altering table structure - SETUP.SQL;
+   - inserting data into the tables - INSERT.SQL;
+   - changing / updating / deleting data in the tables - UPDATE.SQL;
+   - queries - QUERY.SQL.
+5. Add conclusions and finalise the report.
+
+Notes: Subject area of the variant: Farm.

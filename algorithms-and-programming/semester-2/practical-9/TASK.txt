@@ -1,0 +1,24 @@
+Practical 9 - Binary Files
+
+Topic: Binary files, records and random access (seek)
+Goal: Practise writing and reading binary files, finding extreme values without an array, and replacing and inserting records using file positioning.
+
+Task:
+1. In one program perform the following operations:
+   - create a file (file_in.dat). Generate 10 random numbers (0-100), print them on the screen and write them into the file. Open the resulting file in Notepad (without closing the program), look at the "strange" characters, copy them into the report and explain them. Close Notepad.
+   - then, in the same program, open the file, read it and find the maximum and minimum number without using an array. Print the maximum and the minimum. Close the file and finish the program.
+2. In one program perform the following operations. Create a static array of records (5 records) with information about goods:
+      struct product {
+          name: string[10];
+          count: integer;
+          price: double;
+      } product[N];
+   2.1. Fill the array with data. Save the information from the array to a file. Open the resulting file in Notepad (without closing the program). Look at the "strange" characters, copy them into the report and explain them. Close Notepad.
+   2.2. Write and run a function that completely replaces one of the records (found by name) with another one; for example:
+        tmp.name := 'Mask'; tmp.price := 10.5; tmp.count := 100;
+        Use the seek() function. Check the changes in Notepad and copy them into the report.
+   2.3. Write and run a function that inserts a certain "fake" record after each record in the file; for example:
+        tmp.name := 'Mask'; tmp.price := 10.5; tmp.count := 100;
+        Check the changes in Notepad.
+
+Notes: Present the source code and screenshots of the program running.

@@ -1,0 +1,17 @@
+Numerical Methods, Lab 1: Solving a System of Linear Equations by Gaussian Elimination
+
+Topic: Gaussian elimination (forward elimination and back substitution) for a 3x3 linear system.
+Goal: Write a program (in any programming language) that solves a system of three linear equations with three unknowns using the Gauss method.
+
+Task:
+1. Problem statement: a team is planning a party for 12 people in a fast-food cafe. The individual prices of the dishes are unknown, but it is known that
+   - 2 "Stolichny" salads, 7 "Chicken with pineapple" pizzas and 3 okroshkas cost 1135 UAH;
+   - 3 salads, 4 pizzas and 5 okroshkas cost 955 UAH;
+   - 5 salads, 6 pizzas and 1 okroshka cost 1035 UAH.
+   Find the exact prices of a salad, a pizza and an okroshka.
+2. Write the linear system in matrix form (augmented matrix) and solve it by hand with the Gauss method:
+   - forward elimination: reduce the augmented matrix to triangular form (divide the pivot row by its leading element, subtract multiples of it from the rows below);
+   - back substitution: find the unknowns from the last one upwards.
+3. Implement the same algorithm in a program and verify the result by substituting the solution into the original equations.
+
+Notes: Unknowns: x1 = salad price, x2 = pizza price, x3 = okroshka price. System: 2x1 + 7x2 + 3x3 = 1135; 3x1 + 4x2 + 5x3 = 955; 5x1 + 6x2 + x3 = 1035.

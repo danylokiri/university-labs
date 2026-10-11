@@ -1,0 +1,13 @@
+Ruby (Programming Technology Stack), Exam Ticket: Metaprogramming Questions and a Statistics Class
+
+Topic: Procs and lambdas, binding, Object#send, method_missing; a practical class in Ruby.
+Goal: Answer the theoretical questions and complete the practical task.
+
+Task:
+1. How do lambda and Proc work in Ruby? What are the differences between them? (5 points)
+2. What is binding in Ruby? How is it used to access the execution context? (5 points)
+3. How does Object#send work for dynamic method calls? (5 points)
+4. What is method_missing? In which cases is it better to use it? (5 points)
+5. Practical task: create a class Statistics that calculates the mean (average), the median and the mode of a set of numbers. (20 points)
+
+Notes: The solution in this folder is a console program with a menu (enter numbers manually or generate random numbers) and a Minitest test file for the average, median and mode (including the cases of an odd/even count and of several modes).

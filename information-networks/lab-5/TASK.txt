@@ -1,0 +1,13 @@
+Lab 5 - Configuring a DHCP server and DNS
+
+Topic: Configuring a DHCP server and DNS
+Goal: Learn to configure DHCP and DNS servers and practice designing the networks obtained in the previous labs.
+
+Task:
+1. Configure a DHCP server for two networks connected by routers.
+   Goal of the task: understand how to configure a DHCP server for dynamic distribution of IP addresses in a given network (clients receive an IP address, mask, gateway and DNS server address).
+2. Configure a DNS server.
+   Goal of the task: understand how to configure a DNS server that translates symbolic names into IP addresses; check access to a web server both by IP address and by domain name.
+3. Answer the control questions: the task of a DHCP server; the task of a DNS server; whether a static IP address can be set for a node if it belongs to the set of addresses managed by the DHCP server.
+
+Notes: Tool: Cisco Packet Tracer (the .pkt project files are not included in the repository). Builds on the OSPF network from Lab 4.

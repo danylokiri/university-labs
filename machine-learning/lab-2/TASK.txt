@@ -1,0 +1,12 @@
+Machine Learning, Lab 2: Regression
+
+Topic: Solving a regression problem with classical machine-learning methods.
+Goal: Solve a regression problem on one of the presented datasets, following the same steps as in the example work, and compare several models.
+
+Task:
+1. Solve the regression problem for one of the presented datasets using the same steps as in the example (data loading, preprocessing, exploratory visualisation, model training, evaluation).
+2. In addition to the methods presented in the example, consider other ML methods: Support Vector Machine, Gradient Boosting Regression, Bayesian Ridge Regression.
+3. Compare the models on the test sample (e.g. R^2 score), plot true vs. predicted values and the distributions of true and predicted values.
+4. Present the work as a Jupyter Notebook, and be ready to explain the code and the results.
+
+Notes: Dataset used: Crab Age Prediction (target: Age; features: sex, length, diameter, height, weight, shucked weight, viscera weight, shell weight).

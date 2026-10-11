@@ -1,0 +1,20 @@
+Practical 7 - Shell Sort Investigation
+
+Topic: Shell sort and its gap sequences
+Goal: Study Shell sort: compute the gap sequences of different authors and compare the running time with classic gaps and with the Ciura gap sequence.
+
+Task:
+1. Using the formulas from the Wikipedia article on Shellsort, implement a program that calculates the SEQUENCE of gaps for Shell sort, for example: 1, 4, 9, 23, 57, 138, 326, 749, 1695, 3785, 8359, 18298, 39744, ...
+   The user enters the size of the input data array; the program calculates and outputs the gaps for the following algorithms:
+   - Shell
+   - Frank & Lazarus
+   - Papernov & Stasevich
+   - Pratt
+   - Knuth, 1973 (based on Pratt)
+   - Incerpi & Sedgewick, 1985 (Knuth)
+   - Sedgewick, 1982
+   - Sedgewick, 1986
+   - Tokuda
+2. Implement the sorting and set the Ciura gap sequence in the program. Carry out a comparative study of the running time of Shell sort with the classic gaps and with the Ciura sequence. Run the study on the same random file, generated as in the previous work. File size: 4000 elements.
+
+Notes: The report must include a description of Shell sort, the results obtained, and conclusions.

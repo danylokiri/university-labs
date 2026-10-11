@@ -1,0 +1,19 @@
+State catalog - console catalog of states (exam task: inheritance, ArrayList, serialization)
+
+Topic: Inheritance, abstract classes, collections and serialization in Java
+Goal: Implement a console "catalog" program for states using an abstract base class, derived classes and a typed ArrayList, with saving and restoring the list through serialization.
+
+Task:
+1. Develop an abstract class State (a state/country) and two classes derived from it: Republic and Monarchy.
+   - Common fields: id, location (continent), name, area, population.
+   - Variable fields: for republics - the number of parliament deputies; for monarchies - the name of the monarch.
+   - The id field must be unique for every object and constant (final).
+2. Using the ArrayList class typed with the abstract class State, implement a console catalog program with the following features:
+   - view the contents of the whole catalog, or only monarchies or only republics;
+   - add a new monarchy or republic to the catalog;
+   - delete an element by a given id;
+   - one to three variants of a sensible search in the catalog (the search result is not always a single element).
+   Use an overridden toString method to print the catalog contents or search results, and use instanceof to determine the type of an object.
+3. Add methods for serialization/deserialization of the list to the program: serialize on exit from the program and deserialize at start-up.
+
+Notes: Files in the folder: catalog.txt, stateCatalog.dat, stateCatalog.ser (saved catalog data).

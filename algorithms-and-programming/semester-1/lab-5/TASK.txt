@@ -1,0 +1,19 @@
+Lab 5 - One-Dimensional Arrays
+
+Topic: One-dimensional arrays: processing, element replacement, insertion and deletion
+Goal: Practise creating and processing one-dimensional arrays, with random or user-entered values, in menu-driven C programs.
+
+Task:
+(The task numbers below follow the numbering of the source document; task 2 is not present in it.)
+1. Given an integer array A of size N, output first its elements with odd indices in ascending order of indices, and then the elements with even indices in descending order of indices: A1, A3, A5, ..., A6, A4, A2. The array can be filled with random values (up to a given maximum) or entered by the user. Draw a flowchart.
+3. Given a one-dimensional array of size N filled with two-digit numbers, write a function that replaces each even value by the sum of its digits. Draw a flowchart.
+4. You are a novice film director and have just finished your debut project. At the premiere, you asked all the guests (20 people in total) to rate the film on the standard IMDb scale from 1 to 10. For analysis, the 20 ratings given by the guests must be presented in a table of the form "rating - number of guests who gave that rating". Obviously, the sum of the elements of the right column equals 20.
+   After the premiere you decide to gather some of the guests in a special "dark" room for an "additional conversation". The "chosen" ones will be those who gave the film a low rating, or who spoke about it unflatteringly behind the scenes. You have not yet compiled the list and may edit it later. For safety reasons the list will contain no names, only the invitation numbers of the guests (numbered from 1 to 20). You therefore need a program that:
+   - stores in an array the numbers of all guests invited to the additional conversation;
+   - lets you view the current contents of the array;
+   - lets you add a new guest (with a given number) at a given position of the array;
+   - lets you delete a guest from a given position of the array.
+   Technical detail: since there are 20 guests in total, an array of 20 elements is enough to store a list of chosen guests of any length.
+   Draw a flowchart.
+
+Notes: Present the source code, flowcharts and screenshots of the program output.

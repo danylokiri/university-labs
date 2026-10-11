@@ -1,0 +1,11 @@
+Web Development and Web Design, Lab 3: HTML + CSS Website Template (with a JavaScript Slider)
+
+Topic: Developing a website template with HTML and CSS; implementing a slider with JavaScript.
+Goal: Develop a website template using HTML and CSS; acquire the skills of creating a slider for websites with JavaScript.
+
+Task:
+1. Develop a website from a template that includes the main structural elements and styling with HTML and CSS, following web development standards.
+2. Develop and implement a slider using JavaScript (DOM manipulation and event handling).
+3. Check the result in the browser.
+
+Notes: The folder contains a 3-column layout template with the pages index, about, contact, media, table, slider and canvas.

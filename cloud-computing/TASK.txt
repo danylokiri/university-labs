@@ -1,0 +1,24 @@
+Cloud Computing, Lab 2: Working with the AWS S3 Service; Creating a Static Website with S3
+(related files in this folder: index.html - the page about the student; student.json - the versioned JSON data file)
+
+Topic: Amazon S3 buckets and objects, pre-signed URLs, static website hosting, object versioning.
+Goal: Become familiar with creating buckets and objects in S3; configure and grant access to a file with a pre-signed URL.
+
+Task:
+1. Create a bucket, upload an HTML page, get a pre-signed URL.
+   - In the cloud sandbox environment, open the AWS console and the Amazon S3 service.
+   - Create a bucket with a globally unique name in the us-east-1 region, with "Block all public access" switched off.
+   - Prepare an HTML file (index.html) with the information about the student who performs the lab (first name, last name, group) and upload it to the bucket.
+   - Generate a pre-signed URL for the object and check that the page opens through it.
+2. Create a static website based on S3.
+   - Enable "Static website hosting" in the bucket properties and set the index document to index.html.
+   - Add a bucket policy allowing s3:GetObject for all objects in the bucket.
+   - Open the public website endpoint in a browser and check that the page is displayed.
+3. File versioning.
+   - Create another bucket with Bucket Versioning enabled.
+   - Upload a JSON file (student.json) with the student data and a file version field (v1.0); edit it and upload it again (v1.1, then v1.2) and inspect the versions with their Version IDs.
+   - Delete the file, observe the delete marker, then delete the delete marker and check that the last version is restored.
+4. Delete the objects and the buckets created during the lab.
+5. Answer the control questions: what an object in S3 is and what it consists of; the S3 storage classes and their differences; what a bucket is and the restrictions on its name; how object versioning works and why it is useful; which security methods S3 supports; how to host a static website on S3.
+
+Notes: student.json holds the fields first_name, last_name, group and file_version.

@@ -1,0 +1,13 @@
+Practical 3 - The Nails Problem
+
+Topic: Minimum total length of threads connecting nails on a line
+Goal: Solve an optimisation problem on points of a line with an efficient algorithm.
+
+Task:
+Nails are driven into a straight board. Any two nails can be connected with a thread. Connect some pairs of nails with threads so that at least one thread is tied to every nail and the total length of all threads is minimal.
+
+Input data: the first line of the input stream contains the number N - the number of nails (2 <= N <= 100). The next line contains N numbers - the coordinates of all nails (non-negative integers not exceeding 10000).
+
+Output data: the minimum total length of all threads.
+
+Notes: Present the source code and screenshots of the program running.

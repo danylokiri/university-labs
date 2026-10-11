@@ -1,0 +1,24 @@
+Laboratory Work 7 - Triggers in MS SQL
+
+Topic: Working with triggers in MS SQL Server.
+Goal: Become familiar with triggers in Microsoft SQL Server: their purpose, types, usage and effect
+on data integrity. Learn to create, alter and drop triggers in T-SQL and to use them to enforce
+business rules and integrity constraints.
+
+Task:
+1. For your main variant (the one used in practical works 3, 4, 5 and 6), add the description of the
+   subject area and the logical and physical models (from practical work 5). Run the queries in any
+   convenient environment (Docker, virtual machine, file database or local MS SQL instance).
+2. Create DML triggers of types AFTER and INSTEAD OF, using different combinations of INSERT,
+   UPDATE and DELETE.
+3. Create a DDL trigger, using different combinations of CREATE, DROP and ALTER.
+4. Create a LOGON trigger.
+5. Create 3-4 triggers on the theme of your variant that implement the business rules described
+   for it, and show in a table how each of them is implemented.
+   (For tasks 2-5: add screenshots of the queries and results; save the code in TRIGGERS.SQL.)
+6. Provide the T-SQL scripts SETUP.SQL, INSERT.SQL, UPDATE.SQL, QUERY.SQL, FUNCTIONS.SQL, cursor
+   scripts and TRIGGERS.SQL, and a README describing the use of the procedures with a short
+   explanation of the completed tasks.
+7. Add conclusions and finalise the report.
+
+Notes: Subject area of the variant: Farm. Tools: MS SQL Server.

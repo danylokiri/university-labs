@@ -1,0 +1,20 @@
+Cloud Computing, Lab 5: Working with Apache Kafka
+
+Topic: Event brokers based on Apache Kafka; producers, consumers, topic partitions and consumer groups.
+Goal: Become familiar with event brokers based on Apache Kafka; be able to create producers and consumers and build communication between them.
+
+Task:
+1. Single topic and a single consumer.
+   - Create a Maven project and add the org.apache.kafka:kafka-clients dependency.
+   - Start a local Kafka broker (KRaft mode, localhost:9092) and create a topic with one partition and replication factor 1 (lab5-topic-1).
+   - Implement a simple producer (SimpleProducerApp) that reads the number of messages from the console and sends that many text messages to the topic, printing the partition and offset of each one.
+   - Implement a simple consumer (SimpleConsumerApp) that subscribes to the topic and, on each ENTER key press, polls and prints the next available message with its partition and offset.
+   - Verify that the messages arrive in order and that no new messages are reported after all of them have been read.
+2. Topic with three partitions and several consumers.
+   - Create a topic with three partitions (lab5-topic-2, replication factor 1).
+   - Implement a partitioned producer (PartitionedProducerApp) that sends messages with keys key-0, key-1, key-2 (key = "key-" + i % 3), so that messages with the same key always go to the same partition.
+   - Implement a consumer (PartitionedConsumerApp) with a unique client.id per instance, subscribed to the topic and polling in an infinite loop, printing key, value, partition and offset.
+   - Run three instances of the consumer in the same consumer group, then send 15 messages and show how the partitions are distributed between the consumers.
+3. Answer the control questions: what Kafka is and what problems it solves; the roles of broker, topic, partition, producer, consumer, consumer group and KRaft/ZooKeeper; how partitions affect scalability and performance; how a producer chooses a partition; what a consumer group is and how partitions are assigned within it.
+
+Notes: Tools: Java, Maven, IntelliJ IDEA (or any IDE), Apache Kafka command-line scripts (kafka-server-start, kafka-topics).

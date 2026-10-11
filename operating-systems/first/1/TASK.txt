@@ -1,0 +1,16 @@
+Operating Systems, Lab 1, Task 0: A Multi-File C Program (gcc, make)
+
+Topic: C programmer toolchain: the gcc compiler, the make build system, the gdb debugger.
+Goal: Build a C program consisting of several source files, using structures and the functions that serve them as "pseudo-types", and automate the build with a makefile.
+
+Task:
+1. Write a program that generates a random number of points (up to 10), each with random coordinates and a random mass (up to 50).
+2. Find the point with the smallest mass, then find the point nearest to it, and transfer the mass of the first point to the second one (the lightest point is removed). Repeat until only the "strongest" point remains.
+3. Split the project into several files (main.c with the main actions, point.c with the point-handling functions, point.h with the point structure definition).
+4. Create a makefile that builds the executable.
+
+Requirements (common to the lab):
+- each project consists of several code files;
+- the functionality is implemented with structures and the functions that serve them ("pseudo-types");
+- implement encapsulation at the required level;
+- handle dynamic memory carefully: both allocation and returning memory.

@@ -1,0 +1,14 @@
+Practical 4 - Formatted Input and Output
+
+Topic: Formatted input/output of data in C (printf/scanf format specifiers)
+Goal: Learn to print variable names and numeric values in a tabular format and to evaluate an expression using console input.
+
+Task:
+1. Write a C program that prints the names and numeric values of variables in a table (formatted output). Choose the format specifiers yourself to suit the values of the variables. The values to be shown are:
+   L = -457,  Z = 33.66 * 10^-3,  N = -0.1 * 10^4
+   M = 7,     F = 465,            A = 6.7 * 10^3
+2. Evaluate the expression
+       b = y^3 / (x * sqrt(2a) + 1)
+   All unknowns are read from the console; the data and the result are printed on the screen. Test the program on three sets of input data and compare the results with a calculator. Draw a flowchart. The program must report an empty set of solutions when the expression is undefined (a < 0, or the denominator equals 0).
+
+Notes: Present the source code, flowchart and screenshots of the program output.

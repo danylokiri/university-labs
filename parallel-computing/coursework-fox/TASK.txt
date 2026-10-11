@@ -1,0 +1,22 @@
+Coursework (Topic 13) - Parallel Fox Algorithm for Matrix Multiplication with Block Data Distribution
+
+Topic: Investigating the possibility of creating a parallel algorithm for Fox's matrix multiplication algorithm with block data distribution.
+Goal: Develop a parallel algorithm for the problem, implement it with MPI, and analyse its efficiency. Become familiar with the specifics of designing parallel algorithms and parallel programs using MPI (Message Passing Interface).
+
+Task:
+1. Develop a parallel algorithm for Fox's block matrix multiplication (decomposition into subtasks, block distribution over a square process grid, information dependencies, identification of the communication scheme).
+2. Develop a software implementation of the parallel algorithm using MPI.
+3. Measure the computation speed as a function of the number of parallel processes.
+4. Analyse the efficiency of the algorithm.
+5. Plot time, speedup and efficiency against the number of parallel processes.
+6. Present the results of the computational experiments as tables and three-dimensional graphs, and draw conclusions.
+
+Required parts of the work:
+- Introduction: decomposition of the problem and a short annotation of the sections.
+- Analysis of the problem and of existing information; definition of the stages of designing a parallel algorithm; examples of MPI procedures; the algorithms and their implementation.
+- Mandatory content: flowcharts (or UML diagrams) of the parallel algorithm; the structure of the program that implements it; a description of how the mathematical relations map to blocks of code.
+- Working with the program: description of the program interfaces, of the sequence of actions needed to obtain results, and of how to interpret the results.
+- Debugging and testing: description of the testing methods and test results that justify the correctness of the implementation.
+- Conclusions; list of sources.
+
+Notes: Reference implementation: sequential baseline plus an MPI program on a q x q Cartesian process grid; verified with functional tests (identity and zero matrices, deterministic and random inputs) and by comparing with the sequential result; experiments with N = 240, 360, 480, 600, 720 for perfect-square process counts P = 1, 4, 9, 16 (N divisible by q).

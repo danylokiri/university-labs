@@ -1,0 +1,10 @@
+Lab 5 - Java Net Programming (TCP and UDP sockets)
+
+Topic: Java network programming, distributed task execution over TCP and a UDP address-exchange server
+Goal: Learn to build distributed client-server applications on TCP and UDP sockets in Java.
+
+Task:
+1. Write a simple distributed client/server application using TCP sockets. The server accepts tasks from clients, executes them, measures their execution time and returns all this information to the client. The clients create their own tasks and send them to the server for execution (the task class must implement an interface defined by the contract with the server). The client sends the definition of the task class to the server and, as soon as the class file is available, the server can execute the received task. Likewise, the server creates a result object and sends it to the client together with the class definition; the result class implements an interface known to the client. As a client task, the computation of the factorial of a sufficiently large number can be used.
+2. Consider the interaction of two computers in a network. Before starting work, the computers must exchange IP addresses. Create a special UDP server that helps computers exchange "coordinates" (IP addresses and port numbers). Then create UDP clients that test the server: send a request that registers the client (computer) on the server and receive the server's response, a list of the computers already registered.
+
+Notes: Course: Cross-platform programming.

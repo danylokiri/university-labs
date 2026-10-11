@@ -1,0 +1,12 @@
+Credit work - Blockchain technology and cryptocurrency operating platforms
+
+Topic: Theory of blockchain technology and cryptocurrency platforms (written credit work, 4 theory questions, 10 points each)
+Goal: Demonstrate understanding of consensus protocols, the Bitcoin and Ethereum platforms and third-generation cryptocurrencies.
+
+Task (answer the following questions in writing):
+1. The concept of a consensus protocol and its main functions in decentralized systems.
+2. Describe the general architecture and the principles of interaction in the Bitcoin network.
+3. Transactions and smart contracts in Ethereum and their properties. The structure of an account. The difference between the account model and the UTXO model.
+4. Properties of third-generation cryptocurrencies. The main principles of how the Polkadot platform works.
+
+Notes: Written work; there is no programming part.

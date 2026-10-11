@@ -1,0 +1,13 @@
+Lab 2 - Connecting several networks with routers
+
+Topic: Connecting several networks using routers
+Goal: Using Cisco Packet Tracer, find out how to connect several networks of the same class, how to build a backup network and how to set the priority of a route.
+
+Task:
+1. Create and connect two class C networks.
+   Goal of the task: create two networks of class C and connect them using routers (for example, one network with computers and a switch, another with a server; check connectivity with ping, then with simulation mode).
+2. Build a route between two networks through intermediate routers.
+   Goal of the task: learn how to connect two networks when there are two intermediate routers, and practice configuring routers (static routes with correct next hops, or dynamic routing such as RIP v2). Verify with ping, tracert and simulation mode.
+3. Answer the control questions: network classes and first-octet ranges; classless routing (CIDR); the network identifier for 192.168.11.12/24; how the network identifier is determined (bitwise AND with the mask); the mechanism for connecting two networks (IP on router interfaces, no shutdown, transit subnet, static routes, gateways on hosts); how to view the detailed path of a packet (tracert / traceroute) and the routing table (show ip route).
+
+Notes: Tool: Cisco Packet Tracer (the .pkt project files are not included in the repository).

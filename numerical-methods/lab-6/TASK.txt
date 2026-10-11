@@ -1,0 +1,15 @@
+Numerical Methods, Lab 6: Numerical Integration
+
+Topic: Rectangle, trapezoid and Simpson methods.
+Goal: Prepare a complete program that finds an approximate value of a definite integral using the rectangle, trapezoid and Simpson methods.
+
+Task:
+1. Compute the definite integral
+     integral from 2 to 4.4 of (x^2 - 1.3) / (1.2x^3 + 1) dx
+   dividing the integration interval into 10 equal segments.
+2. Implement three methods:
+   - rectangle method (midpoint rectangles);
+   - trapezoid method;
+   - Simpson method (parabolic approximation; the number of segments must be even).
+3. Allow the integration limits to be entered from the keyboard or read from a file; validate the input (n > 0, a < b) and report errors.
+4. Compare the results given by the three methods.

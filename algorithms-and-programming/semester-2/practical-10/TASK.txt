@@ -1,0 +1,28 @@
+Practical 10 - Singly Linked List
+
+Topic: Singly linked lists
+Goal: Implement a singly linked linear list of integers with insertion, printing and search, and merge two sorted lists in two ways.
+
+Task:
+1. Create a singly linked linear list for storing integer data and perform the following actions:
+   1.1. add a new value at the beginning of the list;
+   1.2. add a new value at the end of the list;
+   1.3. add a new value after a specified value in the list;
+   1.4. print all nodes of the list;
+   1.5. search for a value in the list.
+   In items 1.1-1.3 the use of identical values in the list is forbidden (the check must be done in the program).
+2. Form 2 ordered lists and perform the following actions:
+   2.1. Merge them by attaching the beginning of the second list to the end of the first. Example:
+        first list:  -> 3 -> 7 -> 10 -> 12 -> 14 -> null
+        second list: -> 6 -> 9 -> 13 -> 17 -> null
+        result:      -> 3 -> 7 -> 10 -> 12 -> 14 -> 6 -> 9 -> 13 -> 17 -> null
+        Print all nodes for each list.
+   2.2. Merge them to obtain a common ordered list. Example:
+        first list:  -> 3 -> 7 -> 10 -> 12 -> 14 -> null
+        second list: -> 6 -> 9 -> 13 -> 17 -> null
+        result:      -> 3 -> 6 -> 7 -> 9 -> 10 -> 12 -> 13 -> 14 -> 17 -> null
+        Each list may contain any number of elements, including different numbers of elements, and they may "interleave" in the resulting list in any way. Print all nodes for each list.
+
+Requirements: perform each task as an interface menu.
+
+Notes: Present the source code and screenshots of the program running.

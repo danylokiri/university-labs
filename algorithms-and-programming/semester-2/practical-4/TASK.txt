@@ -1,0 +1,16 @@
+Practical 4 - Dynamic Multidimensional Arrays
+
+Topic: Dynamic two-dimensional arrays
+Goal: Practise creating a rectangular dynamic two-dimensional array and inserting and deleting rows.
+
+Task:
+Perform operations on a rectangular two-dimensional dynamic array:
+1. create an array with sizes given by the user;
+2. fill the array with numbers in the interval 0-9:
+   - input from the keyboard;
+   - random values;
+3. add 1 row at a place of the array specified by the user;
+4. delete 1 row specified by the user;
+5. print the array on the screen.
+
+Notes: Present the source code and screenshots of the program running.

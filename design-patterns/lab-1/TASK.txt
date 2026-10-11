@@ -1,0 +1,14 @@
+Lab 1 - Spring Boot
+
+Topic: Spring Boot
+Goal: Get familiar with the Spring Boot technology.
+
+Task:
+1. Create a new project through Spring Initializr in an IDE (Java, Maven; set the project name, group and artifact).
+2. Add the Spring Boot DevTools dependency and review the generated project structure (src/main/java, src/main/resources, the main application class, the Maven configuration file).
+3. Create a separate Spring component (@Component) that performs a mathematical operation of your choice (here: raising a number a to the power b, method power(a, b), implemented with a multiplication loop).
+4. Inject the component into the main application class (dependency injection). The user enters two numbers and the program prints the result.
+5. Run the application in console mode: create a profile-specific properties file (application-import.properties) with spring.main.web-application-type=NONE and activate the "import" profile in the run configuration.
+6. Answer the control questions (advantages and key components of Spring Boot, how it works, how its features are enabled, how a Spring application is started, purpose of @SpringBootApplication).
+
+Notes: Tools: IntelliJ IDEA, Spring Initializr, Maven. The task statement in the source report is implicit; the list above is reconstructed from the stated goal and the required stages of work.

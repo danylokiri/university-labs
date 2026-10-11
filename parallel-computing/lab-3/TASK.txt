@@ -1,0 +1,23 @@
+Lab 3 - Parallel Sorting Algorithms with MPI
+
+Topic: Structure of an MPI program and blocking point-to-point communication; parallel sorting.
+Goal: Consolidate knowledge of the MPI standard and study the efficiency of parallel data-sorting algorithms.
+
+Task:
+1. Implement a parallel sorting algorithm assigned by the variant, using MPI data-exchange procedures.
+2. Study the efficiency indicators of the developed algorithm as a function of the input data size and the number of processors.
+
+Variant table (algorithm and array size):
+  1 - Shell sort, 5000 elements;
+  2 - quick sort, 10000 elements;
+  3 - odd-even sort, 15000 elements.
+Each student performs a pair of these algorithms.
+
+Report requirements:
+1. Problem statement and short description of the algorithm.
+2. Listings of the compiled MPI programs.
+3. Screenshots of program output.
+4. Speedup and efficiency of sequential vs parallel computation (as graphs).
+5. Conclusions.
+
+Notes: Variant used: algorithm 2 (parallel quick sort, hypercube scheme, base size N = 10000) and algorithm 3 (block odd-even sort, base size N = 15000). The experiments additionally varied N (up to 10^6 for quick sort, 5*10^5 for odd-even) and used P = 1, 2, 4, 8 processes.

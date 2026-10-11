@@ -1,0 +1,11 @@
+Lab 1 - Numeral Systems
+
+Topic: Numeral systems, data flow diagrams and flowcharts
+Goal: Practise designing simple algorithms with data flow diagrams and flowcharts, tracing an algorithm by hand, and turning flowcharts into C programs.
+
+Task:
+1. Draw a data flow diagram and a flowchart, and write a program from the flowchart. Run calculations for different input data (three examples).
+   Days of the week are numbered as follows: 0 - Sunday, 1 - Monday, 2 - Tuesday, ..., 6 - Saturday. Given an integer K in the range 1-365, determine the number of the day of the week for the K-th day of the year, assuming that 1 January of this year was a Monday.
+2. Trace by hand the given algorithm that writes a number N in the numeral system with base k (flowchart: input N, k; find the maximum n for which k^n <= N; repeat: d = N / k^n using integer division, output d, N = N - d*k^n, n = n - 1; continue while n >= 0). Fill in a table (step, block, result, comment) for N = 332 and k = 8, and state the result.
+3. Will the algorithm of task 2 work if N = 0 is given as input (with a "good" k, for example k = 8)? Modify the flowchart so that immediately after N and k are entered there is a check "N = 0?"; if the condition holds, the message "N=0" is printed. Otherwise the algorithm works as before.
+4. Given three integers, find the number of positive and the number of negative numbers in the input set. Before writing the program, build a data flow diagram and a flowchart. Provide the source code and a screenshot of the program running.

@@ -1,0 +1,32 @@
+Laboratory Work 2 - Creating Queries in MS SQL
+
+Topic: Creating queries in MS SQL.
+Goal: Learn to write queries with the WHERE condition, to perform multi-table queries, to apply
+different kinds of JOIN to combine data from several tables, and to use complex filtering conditions.
+
+Task:
+1. Take the test and add a screenshot with the score to the report.
+2. For your main variant (the one used in practical works 3, 4, 5 and 6), add the description of the
+   subject area and the logical and physical models (from practical work 5).
+3. Add 100 records to every table of your variant, using generated data (a data generator tool or a data
+   generator website). Put the code in INSERT.SQL and add a screenshot of the successful insert.
+4. Selection conditions (WHERE): write 5 queries on the theme of your variant that filter rows by
+   comparing field values with constants or other expressions.
+5. Logical operators in WHERE (AND, OR, NOT): write 5 queries with multi-criteria conditions.
+6. Pattern search with LIKE (wildcards % and _): write 5 queries.
+7. JOIN for multi-table queries: write 5 queries combining data from several tables via their
+   related attributes.
+8. Extended JOIN usage (LEFT JOIN, RIGHT JOIN, FULL JOIN in addition to INNER JOIN): write 5 queries.
+9. Nested queries (subqueries), where the result of one query is the input of another: write 5 queries.
+10. GROUP BY with HAVING combined with JOIN (analysis by categories, statistical summaries):
+    write 5 queries.
+11. Complex multi-table queries combining JOIN, subqueries, grouping and complex filtering
+    conditions: write 5 queries.
+12. Combining WHERE filtering with JOIN: write 5 queries.
+13. Provide T-SQL scripts: SETUP.SQL (create tables / alter structure), INSERT.SQL (insert data),
+    UPDATE.SQL (change / update / delete data), QUERY.SQL (queries). For every group of queries add
+    a screenshot of the successful execution to the report and keep the code in QUERY.SQL.
+14. Run the queries for your variant according to the subject-area description of the main variant.
+15. Add conclusions and finalise the report.
+
+Notes: Subject area of the variant: Farm.

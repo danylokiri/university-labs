@@ -1,0 +1,21 @@
+Machine Learning, Lab 0: NumPy, Pandas, Matplotlib and Seaborn Basics
+
+Topic: Introduction to the Python data-science toolkit using the Iris dataset.
+Goal: Practise basic array operations with NumPy, and data loading, cleaning, analysis and visualisation with Pandas, Matplotlib and Seaborn.
+
+Task:
+1. Using NumPy
+   1.1. Create a NumPy array with the numbers from 1 to 10. Find the sum, the mean, the maximum and the minimum of its elements, and sort it in ascending order.
+   1.2. Create a 2x3 NumPy matrix with the numbers from -10 to 10. Find its transpose; find its determinant (it must raise an error for non-square matrices); multiply the matrix by a scalar (e.g. 2); add two matrices element-wise.
+2. Using Pandas
+   2.1. Data loading and inspection: load the Iris dataset (from a CSV file or a URL) into a DataFrame, show the first 5 rows with head() and a concise summary with info().
+   2.2. Data cleaning and preprocessing: check for missing values with isnull().sum(); fill any with the column mean; convert columns to appropriate data types (e.g. categorical to numerical).
+   2.3. Data analysis: compute the mean, median and standard deviation of every numerical column; group the data by the "species" column and compute the mean of each numerical column per species; use describe().
+   2.4. Data visualisation with Pandas plotting: a histogram and a box plot for each numerical column; a pair plot of the numerical features.
+3. Using Matplotlib and Seaborn
+   3.1. Scatter plot of sepal_length vs. sepal_width with Matplotlib, points coloured by species, with title, axis labels and legend.
+   3.2. Seaborn pair plot of all features coloured by species; violin plot of petal_length for each species.
+   3.3. Seaborn heatmap of the correlation matrix of the numerical features, with a customised palette and annotations; use Matplotlib to add a title and adjust the layout.
+4. Bonus: build an interactive 3D scatter plot with Plotly.
+
+Notes: Dataset: Fisher Iris (fisher_irises.csv).

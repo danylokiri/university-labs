@@ -1,0 +1,23 @@
+Lab 3 - Programming Loops
+
+Topic: Loops: sums, products with a given accuracy, tabulation of a function
+Goal: Practise implementing iterative algorithms with for, while and flag-controlled loops.
+
+Task:
+1. Given an integer N (> 0), find the sum sin(x) + sin(2x) + ... + sin(Nx) (x = 0.1). Draw a flowchart.
+2. The user enters integers. Output the sum of the numbers that occur more than once and follow one right after another; 0 is the end-of-input marker.
+   Example: 2 3 3 8 5 4 4 4 -7 1 -1 -1 2 0
+   Sum = 16 (that is, 3+3+4+4+4+(-1)+(-1)).
+   Draw a flowchart.
+3. Compute the product 1/2 * 3/4 * 5/6 * ... with an accuracy of 10^-4. Draw a flowchart.
+4. "Tabulation" of the function Y. When organising the loop, use this construction:
+   - x0 - the initial value of the loop parameter;
+   - xk - the final value of the loop parameter;
+   - dx - the step of the loop parameter.
+   The loop parameter x takes the values x0, x0 + dx, ..., xk in turn. For each x compute Y(x). Present the results in a table.
+      Y = (2 + e^x) / (1 - e^x) + 3 F(x),
+      where F(x) = sqrt(1 + x/2) for x > 1, and F(x) = 1 / (1 + x/2) for x <= 1.
+      0 <= x <= 5, dx = 0.5.
+   Draw a flowchart.
+
+Notes: Present the source code, flowcharts and screenshots of the program output.

@@ -1,0 +1,16 @@
+Ruby (Programming Technology Stack), Control Work: Core Language Questions and Two Programs
+
+Topic: Ruby basics: collections, nil, strings, instance variables; small console programs.
+Goal: Answer the theoretical questions and complete two practical tasks.
+
+Task:
+Theory:
+1. How can you check whether an element is present in a hash or an array?
+2. What is nil in Ruby and how is it used?
+3. What is a string in Ruby? Which operations can be performed on strings?
+4. What are instance variables in Ruby classes? How are they used to keep the state of an object?
+Practice:
+1. Write a method that removes all spaces from a string.
+2. Create a class Catalog that stores a list of products, with a method for adding a new product.
+
+Notes: In this folder, 1.rb contains the examples for theory question 1 and 2, first.rb solves practical task 1 (a loop reading lines until "exit"), second.rb solves practical task 2 (a menu: show the list, add a product, exit).

@@ -1,0 +1,23 @@
+Lab 2 - Structure of an MPI Program and Blocking Point-to-Point Communication
+
+Topic: Structure of an MPI program and blocking point-to-point communication procedures in MPI.
+Goal: Gain skills in developing parallel programs that use blocking point-to-point MPI communication, measure execution time, and evaluate the speedup and efficiency of the programs.
+
+Task:
+Develop a parallel MPI program for each problem assigned by the variant, measure the sequential and parallel execution time, and evaluate speedup and efficiency of the parallel computation. The input data are chosen freely. Run a series of experiments.
+The problem pool is:
+  1. dot product of two vectors;
+  2. product of two vectors;
+  3. finding the maximum and minimum values of a given set of numbers;
+  4. finding the mean value of a given set of numbers.
+Each variant is a pair of problems from this pool.
+
+Report requirements:
+1. Problem statement and short description of the algorithm.
+2. Listings of the compiled MPI programs.
+3. Screenshots of program output.
+4. Speedup and efficiency of sequential vs parallel computation (as graphs).
+5. Answers to any 6 control questions (communicator and its purpose; what must be specified to send a message; message types in MPI; MPI vs C++ data types; return-code conventions; MPI_Init/MPI_Finalize; communicator size; process rank; node name; point-to-point exchange; send and receive call formats; typical structure of an MPI program).
+6. Conclusions.
+
+Notes: Variant used: problems 3 and 4 (max/min search and mean value), implemented with blocking MPI_Send / MPI_Recv only. Experiments: array sizes N = 500000, 1000000, 2000000, 5000000, 10000000 on P = 1, 2, 4, 8 processes. The program follows the master/worker structure.

@@ -1,0 +1,12 @@
+Practical 8 - Analysis of the J-sort Algorithm (by Morrison)
+
+Topic: Efficiency analysis of J-sort
+Goal: Analyse the complexity of the J-sort sorting algorithm theoretically and practically.
+
+Task:
+1. Implement the sorting algorithm (J-sort).
+2. Justify the theoretical complexity for the best and worst cases.
+3. Measure the practical speed of the algorithm for the best and worst cases (using sorted, unsorted and random-valued arrays).
+4. Draw conclusions based on the results obtained.
+
+Notes: Present the source code, a screenshot of the program running, the table of source data and the graphs of the results.

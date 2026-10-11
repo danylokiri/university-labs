@@ -1,0 +1,30 @@
+Practical Work 3 - Business Process Modelling with IDEF0 in BPwin
+
+Topic: IDEF0 business-process models built with the CASE tool BPwin.
+Goal: Gain experience in creating IDEF0 business-process models using the CASE tool BPwin.
+
+Task:
+Task 1. Using the subject assigned by the instructor, build the model described in the
+theoretical part, using your own group, full name and the company name given by the variant
+in the model names.
+ 1. To enter the scope, purpose and viewpoint of the IDEF0 model, choose Model / Model Properties
+    in BPwin to open the Model Properties dialog.
+ 2. On the Purpose tab, enter the purpose and the viewpoint.
+ 3. To enter the model definition and the scope description, open the Definition tab.
+ 4. On the General tab, enter the project and model names, the author's name and initials, and the
+    time frame of the model (AS-IS and TO-BE).
+ 5. On the Status tab of the same dialog, describe the model status and the creation and last
+    edit dates.
+ 6. As a result, the model report should be produced.
+ 7. When a new model is created (File / New), a context diagram with a single activity
+    representing the whole system is created automatically.
+ 8. Enter the activity name (right-click the activity, choose Name Editor and type the name).
+    Other activity properties are set in the Activity Properties dialog.
+ 9. To create a decomposition diagram, click the corresponding toolbar button. In the Activity Box
+    Count dialog choose the IDEF0 notation and the number of activities, then press OK.
+10. The decomposition diagram should then appear.
+Task 2. Produce all the reports mentioned in the theoretical part from within BPwin
+(Tools / Reports): Model Report, Diagram Report, Diagram Object Report, Arrow Report and
+Model Consistency Report.
+
+Notes: Subject area of the variant: Farm. Tool: BPwin.

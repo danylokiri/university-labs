@@ -1,0 +1,19 @@
+Practical 2 - Numeral Systems
+
+Topic: Positional numeral systems and base conversion
+Goal: Practise reading and writing numbers in positional numeral systems with different bases, and implement a conversion to decimal as an algorithm and a program.
+
+Task:
+1. Exercise 1.1. Using calculations of the form "sum of digit x base^position", determine the decimal values of the numbers:
+   a) 100110 (base 2)
+   b) 3734 (base 8)
+   c) 2231 (base 5)
+   d) 7AB8 (base 16)
+2. Exercise 1.2. Take the number N equal to a date written as DDMMYYYY (for example 01012002). Write N in numeral systems with base 2, 8 and 16.
+3. Exercise 2. Design an algorithm and write a program that converts a number to the decimal system for the special case when the original notation of the number, in a system with an arbitrary base k, has exactly three digits (a2 a1 a0). Present:
+   - a data flow diagram,
+   - a flowchart,
+   - the source code,
+   - a screenshot of the program running.
+
+Notes: The result for a three-digit number is N = a2*k^2 + a1*k + a0.

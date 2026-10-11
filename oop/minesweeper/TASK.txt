@@ -1,0 +1,19 @@
+Course project - Minesweeper
+
+Topic: Object-oriented programming course project: the "Minesweeper" game (Java, Swing GUI)
+Goal: Design and implement a single-player Minesweeper game using object-oriented programming.
+
+Task:
+Develop the game with the following features:
+1. Create the game field; the player can choose a field size and number of mines, either from predefined levels (the default beginner level is 8x8 with 10 mines) or by entering a custom size; a recommended number of mines can be calculated from the entered data.
+2. Generate mines on the field.
+3. Opening a tile with the left mouse button: if there is no mine, the tile shows the number of mines around it (and, if there are none around it, the neighboring empty tiles are opened automatically).
+4. Marking a tile that supposedly contains a mine with a flag using the right mouse button.
+5. Declare a win (all tiles without mines are opened) or a loss (a mine is opened; the positions of all mines are then shown).
+6. Measure the game time. After a win, write the time, field size and number of mines to a results text file, and show a table of records in a menu section. Records are ranked by the ratio (minesweeping time) / (number of mines), from the smallest to the largest, so that results are comparable across field sizes.
+7. Read and write the field size and the records from/to text files; on start-up the field of the size used in the previous run is created.
+8. Menu: Game (restart, change field size, view records) and Help (How to play, About; the About text is read from a text file).
+9. Optional extra: a "cheat" key (b) that undoes the last move; after a loss the cheat shows the mine positions and makes the player invulnerable to mines.
+10. Write the project documentation: concept, analysis, design (domain classes and methods), testing, user installation instructions.
+
+Notes: The requirements above are taken from the concept and analysis sections of the course project report. The solution has the classes App (entry point), Minesweeper (game logic and Swing GUI) and MineTile (inner class for a tile).

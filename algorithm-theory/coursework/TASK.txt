@@ -1,0 +1,18 @@
+Coursework - The Knight's Tour Problem
+
+Topic: The knight's tour problem on a chessboard
+Goal: Find a route of a chess knight that passes through every square of the board exactly once, using and comparing several algorithms.
+
+Task:
+1. Study the problem theoretically: open and closed tours, and the following solution methods:
+   - backtracking;
+   - Euler's method;
+   - Warnsdorff's rule (a greedy heuristic: always move to the square from which the fewest unvisited squares can be reached);
+   - the frame method (Munk and Collini).
+   Compare the speed and the difficulty of the methods, and estimate the complexity of the algorithms.
+2. Implement a program in C that solves the problem with each of these methods, chosen by the user:
+   - the user enters the board size N (1 to 8; the problem has a solution for N >= 5) and the starting position of the knight;
+   - the user selects the solution method;
+   - the program prints the board in which each value is the number of the move, together with the execution time and the number of operations/iterations.
+3. Test the program and evaluate the practical complexity of the algorithms.
+4. Prepare an explanatory note (theoretical analysis, program description, testing, conclusions, source code) and a presentation.

@@ -1,0 +1,13 @@
+Lab 1 - Dynamic Arrays
+
+Topic: Dynamic arrays (one-dimensional and two-dimensional) in C
+Goal: Practise dynamic memory allocation by implementing a medal-tally program for an international sports competition.
+
+Task:
+Implement a program for the daily tally of victories in international sports competitions (for example, the Olympics) by country. Use two dynamic arrays for the bookkeeping (there are no other data structures):
+1. a one-dimensional array that stores the names of the countries;
+2. a two-dimensional array that stores the number of medals per country (gold, silver, bronze); a hybrid array with a fixed number of columns is allowed.
+
+The indices of elements (countries) in the one-dimensional array correspond to the row numbers of the two-dimensional array. That is, if element 0 of the one-dimensional array is "Germany", the values in row 0 of the two-dimensional array are the numbers of medals won by the German athletes.
+
+Notes: The program is menu-driven. Present the source code and screenshots of the program running.

@@ -1,0 +1,13 @@
+Practical 8 - Loops: Primality Test and Series Summation
+
+Topic: Loops, menu-driven programs, approximate calculation of a function by a series
+Goal: Implement a primality check for a natural number and an approximate evaluation of a function by summing a series with a given accuracy.
+
+Task:
+1. Write a program that checks a natural number N for primality. N is entered from the keyboard. The program is menu-driven (check a number / exit). Draw a flowchart.
+2. Write a program for the approximate calculation of the function y(x) by summing the terms of the series S(x):
+      S(x) = e^(-2) * (1 + sum for n = 1 to infinity of (x + 2)^n / n!),     y(x) = e^x
+   Continue the summation until the next term, in absolute value, becomes smaller than epsilon = 10^-4.
+   Compute the sum S(x) and the function y(x) for the control values x = 1, 9, -15. Compare and analyse the results. Draw a flowchart.
+
+Notes: Present the source code, flowcharts and screenshots of the program output.

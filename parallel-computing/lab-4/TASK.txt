@@ -1,0 +1,24 @@
+Lab 4 - Parallel Matrix Multiplication with MPI
+
+Topic: Introduction to parallel programming with the MPI standard: parallel implementation of matrix multiplication methods.
+Goal: Consolidate knowledge and skills in developing parallel MPI programs and study parallel algorithms for a computationally demanding problem (matrix multiplication).
+
+Task:
+Strip (ribbon) algorithm
+1. Develop a sequential C program for matrix multiplication by the strip method.
+2. Identify the information dependencies and the possibilities for parallelisation.
+3. Develop a parallel MPI program for matrix multiplication by the strip method.
+4. Run a series of computational experiments. Study how the execution time depends on the input data size and on the number of processors. Plot execution time, speedup and efficiency against data size and number of processors.
+5. Draw conclusions.
+
+Fox block algorithm
+6-10. Repeat steps 1-5 for Fox's block algorithm.
+
+Cannon block algorithm
+11-15. Repeat steps 1-5 for Cannon's block algorithm.
+
+16. Draw general conclusions for the whole lab.
+
+Report requirements: title page; title and goal; theory and C++ listing of the parallel MPI strip-algorithm program; experiments, graphs and conclusions; the same for the Fox and Cannon algorithms; answers to any 6 control questions (matrix-vector multiplication statement; data distribution schemes for matrices; row-wise and column-wise strip distribution, etc.).
+
+Notes: No variant table is given; all three algorithms are required. Matrix sizes N = 128, 256, 384, 512, 768. Strip algorithm: P = 1, 2, 4, 8 processes; Fox and Cannon: square process grids, P = 1, 4, 16.

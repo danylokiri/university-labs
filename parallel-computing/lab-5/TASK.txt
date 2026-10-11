@@ -1,0 +1,14 @@
+Lab 5 - Solving Linear Systems by Gaussian Elimination with MPI Collective Operations
+
+Topic: Data exchange in MPI. Parallelising programs that solve systems of linear equations by Gaussian elimination, using collective communication procedures.
+Goal: Consolidate knowledge and skills in developing parallel MPI programs and study parallel algorithms for solving systems of linear equations.
+
+Task:
+1. Develop sequential and parallel MPI programs that solve a system of linear equations by the Gauss method (forward elimination and back substitution).
+2. Measure the sequential and parallel execution time and evaluate the time, speedup and efficiency of the parallel computation.
+3. Choose the input data yourself and run a series of experiments.
+4. Plot the dependencies of time, speedup and efficiency, and draw conclusions.
+
+Report requirements: title page; listings of the compiled MPI programs; screenshots of program results; estimate of parallel execution time and graphs; answers to any 4 control questions (what a system of linear equations is and which solution methods exist; problem statement; idea of the parallel Gauss method; information interactions between the basic subtasks; efficiency indicators of the parallel Gauss method; program implementation scheme); conclusions.
+
+Notes: No variant table is given. Reference experiments: system sizes N = 128, 256, 512, 768, 1024 on P = 1, 2, 4, 8 processes; rows are distributed cyclically between processes, the pivot row and the computed unknowns are broadcast.

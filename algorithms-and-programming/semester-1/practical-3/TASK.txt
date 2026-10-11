@@ -1,0 +1,11 @@
+Practical 3 - Data Types and Operations on Them
+
+Topic: Data types in C, their sizes and addresses, type casting
+Goal: Learn the sizes of the basic C data types, see how variables are laid out in memory, and use explicit type conversion in expressions.
+
+Task:
+1. Using the sizeof operator, determine experimentally the sizes of the following types and put the results in a table: int, unsigned int, char, unsigned char, float, double, short, long, long long, long double.
+2. Declare three or more variables of different sizes (for example int, long, short, unsigned char). Find out their addresses and present them in a table (variable - address), similar to a memory-layout illustration (table only, no arrows or explanations needed).
+3. According to sociologists, out of N people polled on the streets of a city, M intend to vote for the "Programmers' Party". Using the cast to double, write a program that, for given N and M, tells the sociologists what percentage of respondents intend to vote for the Programmers' Party. The result must be an integer (the fractional part is discarded). For your program, build an expression parse tree showing the type conversions.
+
+Notes: Each task is presented with the source code and a screenshot of the program output.

@@ -1,0 +1,11 @@
+Lab 3 - Building a backup route between two networks; setting route priorities
+
+Topic: Backup route between two networks; priority routes
+Goal: Build a backup route in a network based on Gigabit Ethernet and configure route prioritization.
+
+Task:
+1. Create and configure an additional (backup) route, based on the network from the previous lab (additional Gigabit Ethernet ports on the routers).
+2. Configure the priority for the route with fewer nodes, so that the main path uses Gigabit Ethernet and the backup path uses Fast Ethernet.
+3. Answer the control questions: what a backup route is; which criteria a router can use to choose a route (administrative distance, metric, interface type, longest prefix match); how to set a priority for a given route (ip route with an administrative distance argument, for example ip route 192.168.15.0 255.255.255.0 192.168.13.2 1).
+
+Notes: Tool: Cisco Packet Tracer (the .pkt project files are not included in the repository). Builds on the network from Lab 2.

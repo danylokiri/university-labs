@@ -1,0 +1,16 @@
+Practical 3 - Dynamic One-Dimensional Arrays
+
+Topic: Dynamic one-dimensional arrays
+Goal: Practise creating a dynamic array and inserting and deleting elements, using dynamic memory allocation.
+
+Task:
+Perform operations on a one-dimensional dynamic array:
+1. create an array of N elements, with N given by the user;
+2. fill the array with numbers in the interval 0-9 in two ways: input from the keyboard; random values;
+3. add 1 element to the array;
+4. delete 1 element from the array;
+5. add M elements to the array (the range of elements is set by the user);
+6. delete M elements from the array (the range of elements is set by the user);
+7. print the array on the screen.
+
+Notes: Present the source code and screenshots of the program running.

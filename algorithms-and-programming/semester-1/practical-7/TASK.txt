@@ -1,0 +1,12 @@
+Practical 7 - Loops
+
+Topic: while, for and do-while loops
+Goal: Practise implementing iterative algorithms with the different loop statements and with break.
+
+Task:
+1. Write a program following the given flowchart and run test calculations. The flowchart: start; n = 0, val = 1; while (n <= 6) { output n, val; n = n + 1; val = 2^n }; end. Then rewrite the program in two more ways: with a for loop and with a do-while loop.
+2. Write a program that computes the factorial of a non-negative integer N. Check that it works correctly for N = 0. Draw a flowchart.
+3. A millionaire, Mr. Black, dislikes inflation, which eats 12% of his fortune every year. He invested most of his money in shares of companies on a stock exchange which, on average, grow faster than inflation. Share prices are unstable, though, and sometimes fall. He wants a program that monitors the current value of his investment portfolio every day and raises an alarm when "today's" value is lower than "yesterday's".
+   The program reads a sequence of numbers from the keyboard and, as soon as it detects that the sequence stopped growing (or started to decrease), prints a warning message and terminates. Hint: the break statement is convenient here. Draw a flowchart.
+
+Notes: Present the source code, flowcharts and screenshots of the results.

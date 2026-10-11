@@ -1,0 +1,32 @@
+Practical Work 6 - Relational Algebra Queries
+
+Topic: Relational algebra: formulating queries and translating them to SQL.
+Goal: Gain experience in writing queries in the relational database model, become familiar with the
+basic operations of relational algebra and learn to apply them to optimise queries and work with data.
+
+Task:
+1. For your variant (given in an appendix to the assignment), solve the relational-algebra problems
+   and write each query in relational algebra (selection, projection, join, union, etc.), then
+   express it in SQL. The queries are over the classic supplier / part / project database:
+   S (suppliers: id, name, status, city), P (parts: id, name, colour, weight, city),
+   J (projects: id, name, city), SPJ (supplies: supplier, part, project, quantity).
+   The variant's queries:
+   1. Get full information about all projects located in Dnipro.
+   2. Get all "project name - project city" combinations.
+   3. Get the names of all parts whose name is 5 characters long.
+   4. Get the cities of suppliers whose status equals 20.
+   5. Get the names of suppliers from city B.
+   6. Get the names and weights of parts supplied by supplier S2 and by the supplier named Shevchenko.
+   7. Get the names of parts supplied by a supplier whose status is greater than 15 and whose name
+      starts with the letter "S".
+   8. Get the numbers of projects that receive parts from city B or parts from a supplier from city B.
+   9. Get the names of parts supplied by Shevchenko in quantities greater than 200.
+2. For one of the queries of your main variant (the one used in practical works 3, 4 and 5), build a
+   query to its subject area in the language of relational algebra, and also give the equivalent SQL
+   query. (The subject area is the farm; for example, a query that finds the brigades that have a given
+   type of machinery in a quantity greater than the average for that type over all brigades on the
+   farm, listing the brigade id, name and machinery count.)
+3. Add conclusions.
+
+Notes: City B is a second city value from the sample data; the original data also contains Dnipro as
+city A. SQL dialect used: MySQL.

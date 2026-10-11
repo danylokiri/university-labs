@@ -1,0 +1,27 @@
+Calculation and graphic assignment 1 - Recall everything (OOP basics and numerical differentiation)
+
+Topic: Object-oriented programming basics and numerical methods implemented through interfaces
+Goal: Recall the basics of OOP and of numerical methods and their implementation based on interfaces.
+
+Task:
+Create a software solution that models the concept of a function and allows:
+1) creating functions defined either analytically (an expression in code) or in tabular form;
+2) computing the value of a function for a given argument;
+3) computing the derivative of a given function numerically with a given accuracy.
+
+Exercise 1. Create a software solution for a uniform representation of a function of one variable (type double) defined in different ways: analytically (the formula is given in the program text) and in tabular form. Differentiate such functions numerically with the specified accuracy. To test the solution, compute the function values and their derivatives with the given accuracy on the interval x in [1.5, 6.5] with step 0.05 for several test functions. Save the differentiation results to text data files and display the saved data graphically using other standard software. Test functions:
+   1) f(x) = exp(-x^2) * sin(x);
+   2) f(x) = exp(-a*x^2) * sin(x) for a = 0.5, 1.0, 1.5;
+   3) a function defined in tabular form: values of the independent variable and of the function sin(x) are stored in a text data file; the table of values is kept in the corresponding class as an ArrayList.
+
+Exercise 2. Refactor the created system (editing the internal structure of the code to make it easier to understand and extend without changing its external behavior). Analyze the solution, find the weaknesses of its structure from the object-oriented point of view and fix them by changing the structure (for example, remove static methods except main(), improve the class structure by removing unnecessary classes and inheritance, make the structure easier to extend). Recall the OOP concepts, the SOLID principles and the GRASP patterns. Test the result on the previous test cases.
+
+Exercise 3. Re-engineer the solution by adding the following capabilities:
+   1) data for a tabular function are read from a CSV file;
+   2) data for a tabular function are stored in a TreeSet;
+   3) data for a tabular function are stored in a TreeMap;
+   4) an analytically defined function can be given as a string while the program is running. For such a function the derivative must be computed both numerically and symbolically (analytically). Support functions without parameters (for example f(x) = exp(-x)*sin(x)) and with one parameter (for example f(x) = exp(-a*x)*sin(x)). Using an external library is recommended;
+   5) create a program with a graphical user interface that displays an analytically defined function and its derivative within given limits (Swing or JavaFX);
+   6) add parametrization so that calculations can be performed for functions of different types.
+
+Notes: Course: Cross-platform programming. The output data files (results_*.txt, xy_values.*) in the folder are test results of the solution.

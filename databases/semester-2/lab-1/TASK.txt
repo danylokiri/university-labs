@@ -1,0 +1,24 @@
+Laboratory Work 1 - MS SQL (T-SQL): Creating Tables and Basic Queries
+
+Topic: MS SQL.
+Goal: Learn to create, alter and drop tables in a database, to insert, update and delete data in
+those tables, and to write the simplest database queries.
+
+Task:
+1. Take the test and add a screenshot with the score to the report.
+2. For your main variant (the one used in practical works 3, 4, 5 and 6), add the description of the
+   subject area (copied from the variant) and the logical and physical models (copied from
+   practical work 5).
+3. Add business rules to your variant (an example of writing business rules is given in an
+   appendix to the assignment).
+4. For each entity, give a description as a table listing: attribute name, physical name, T-SQL
+   data type, PKEY, FKEY, ALLOW NULLS, UNIQUE (an example is given in the appendix).
+5. Write T-SQL scripts (examples are given in the appendix) and keep them in a version-control
+   repository, adding the link to the report:
+   - creating tables and altering table structure - SETUP.SQL;
+   - inserting data into the tables - INSERT.SQL;
+   - changing / updating / deleting data in the tables - UPDATE.SQL;
+   - queries - QUERY.SQL.
+6. Add conclusions and finalise the report.
+
+Notes: Subject area of the variant: Farm (the same domain as in the earlier practical works).

@@ -1,0 +1,10 @@
+System Modelling, Practical 3: Mathematical Models of the Operation of Complex Network Systems
+
+Topic: Graph tree and system of equations of a network model based on the network postulates.
+Goal: For a given structure of the network graph, build the tree of the graph and write the system of equations of its mathematical model.
+
+Task:
+1. According to the given variant of the structure of the graph of a complex network system, build the tree of the network graph.
+2. Write the system of equations of its mathematical model according to the first and second postulates of networks (the first: the algebraic sum of flows at every node equals zero; the second: the algebraic sum of pressure losses around every independent contour equals zero).
+
+Notes: Graph used (directed): nodes 0-7; arcs 0->1, 1->2, 2->3, 3->4, 1->5, 5->4, 5->7, 7->6, 4->6; node 0 is the zero node before the active source at node 1; n = 8 nodes, m = 9 arcs, so there are m - n + 1 = 2 independent contours (chords).

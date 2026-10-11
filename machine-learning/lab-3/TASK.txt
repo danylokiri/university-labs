@@ -1,0 +1,12 @@
+Machine Learning, Lab 3: Simple Classification Methods
+
+Topic: Solving a classification problem with simple classifiers and hyperparameter optimisation.
+Goal: Apply simple classification methods to a selected dataset after data preprocessing and visualisation.
+
+Task:
+1. Do data preprocessing and data visualisation as in the first lab work.
+2. Solve the classification problem for the selected dataset.
+3. Use the Fisher Iris classification notebook as the baseline for the experiments.
+4. Try to optimise the hyperparameters of some model.
+
+Notes: Proposed datasets (Kaggle): Mushroom Classification, Fetal Health, Glass, Gender Classification, Weather Type, Star Type (NASA), Happiness, NASA Asteroids, CS:GO Round Winner, Heart Disease, Early Diabetes, Credit Risk. Dataset used: CS:GO Round Winner Classification (model: Random Forest with hyperparameter search; plots: class distribution, correlation matrix, pair plot, confusion matrices).

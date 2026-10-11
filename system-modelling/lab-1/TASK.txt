@@ -1,0 +1,20 @@
+System Modelling, Practical 1: Simulation Modelling of the Technological Processes of Complex Technical Systems
+
+Topic: Simulation modelling of the consumption of a target product (e.g. water) in a complex network (pipeline) system.
+Goal: Build a simulation model of the operating processes of a complex network system and plot the expected and the randomised consumption.
+
+Task:
+1. Study the material of the supplementary appendix on simulation modelling of pipeline systems.
+2. Build a simulation model of the technological processes of a complex network system.
+3. Describe the consumption of the target product by a consumer by a discrete function of time, the sum of parts of two sinusoids of the form
+     q_j(t) = Mq_j + A_j * sin(w_j * t + phi_j),   j in N, t in [0, T]          (1)
+   which differ in the mathematical expectation Mq_j of the consumed flow rate over the time interval [0, T]:
+     Mq_j = gamma_j * q0_j,  0 <= t < t1
+     Mq_j = q0_j,            t1 <= t <= T                                          (2)
+   where 0 < gamma_j < 1.
+   Parameter values: A_j = 0.5*q0_j; w_j = pi/6; phi_j = pi; gamma_j = 0.6; t1 = 6 h.
+4. The variance of the deviation of the consumed flow over [0, T] is taken in the range 0.05 - 0.4 of its mathematical expectation.
+5. Use a random number generator.
+6. Build computer plots of the function: a) the mathematical expectation Mq_j of the consumed flow over [0, T]; b) the consumed flow taking the variance of the deviation into account.
+
+Notes: Parameters used: q0_j = 100, T = 24 h, relative variance (standard deviation factor) 0.24 of the expectation. Implementation language: Python (numpy, matplotlib).

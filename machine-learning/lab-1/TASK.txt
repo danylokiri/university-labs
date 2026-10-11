@@ -1,0 +1,30 @@
+Machine Learning, Lab 1: Data Cleaning, EDA, Feature Engineering and Visualisation
+
+Topic: Preparing and exploring a real-world dataset.
+Goal: Clean and prepare a dataset, explore it, create new features and communicate the findings with visualisations.
+
+Task:
+1. Data cleaning and preparation:
+   - load a dataset of your choice from the proposed Kaggle datasets;
+   - handle missing values (remove or impute);
+   - remove duplicate rows;
+   - convert categorical variables to numerical form, e.g. one-hot encoding (be aware of sparse and non-sparse one-hot encoding);
+   - normalise or standardise numerical features;
+   - save the cleaned dataset to a new CSV file.
+2. Exploratory data analysis (on the cleaned dataset):
+   - basic statistics (mean, median, mode, standard deviation) of numerical features;
+   - histograms and box plots of the distributions;
+   - scatter plots of relations between pairs of numerical features;
+   - a Seaborn pair plot or heatmap of correlations;
+   - a short written summary of the findings.
+3. Feature engineering:
+   - create new features from existing ones (e.g. age groups, interaction terms), using domain knowledge;
+   - analyse their impact on the distributions and correlations and visualise them.
+4. Data visualisation (on the dataset with the new features):
+   - a bar chart comparing categorical features;
+   - a line plot of trends over time (if applicable);
+   - a correlation heatmap;
+   - a Seaborn violin or swarm plot comparing distributions across categories;
+   - several plots combined into one figure using Matplotlib subplots.
+
+Notes: Proposed datasets (Kaggle): Car Price, Diabetes, U.S. Post-College Salaries, Red Wine Quality, Arrest Data in Los Angeles, Daily Climate time series, Digital Literacy Education, Global Country Information 2023, College Basketball, Pulsar HTRU2, Travel Review Ratings, School Attendance by District 2021-2022. Dataset used: Arrest Data in Los Angeles (2020 to present).

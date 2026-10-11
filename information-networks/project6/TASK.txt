@@ -1,0 +1,27 @@
+Project 6 - HTTP server with RSA and AES encryption: secure client-server exchange (labs 6-9)
+
+Topic: HTTP protocol, REST API and Postman; asymmetric (RSA) and symmetric (AES) encryption; a secure communication channel between a client and a server
+Goal: Get practical knowledge of the HTTP protocol and the Postman tool, and practical skills in asymmetric and symmetric encryption by building a server and a client that exchange data securely.
+
+The work is done in four consecutive parts on one project (Node.js + Express server, console client).
+
+Part 1 - HTTP and Postman
+1. Develop a basic test web server providing an API with basic CRUD operations (resource: employees, data kept in memory, endpoints GET, POST, PUT, DELETE).
+2. Prepare a Postman collection for the API.
+3. Create automation in Postman: create, check, change, check, delete an employee, then try to fetch it (expected result: 404); write simple tests for status codes and correctness of the changes.
+
+Part 2 - Encryption services
+1. Develop a service (class) RsaService that generates an RSA key pair (public and private) and encrypts and decrypts the data passed to it.
+2. Develop a service (class) AesService that generates a secret key and an initialization vector for AES and encrypts and decrypts the data passed to it.
+3. Extend the web server API: generate an RSA key pair, store it in an internal storage (memory is enough, no database), and get the public key by its identifier.
+4. Create a Postman collection to test the new API (API documentation with Swagger UI is an optional extra).
+
+Part 3 - Secure client
+1. Develop a client (console application) able to initiate and maintain secure communication with the server: the client gets the server's public RSA key, generates a random AES key and initialization vector, encrypts them with the RSA public key and sends them to the server together with a session identifier; the server stores the session key and uses it for symmetric encryption of the following messages; the server decrypts received messages, adds a timestamp and sends them back encrypted.
+
+Part 4 - Session expiration and data integrity
+1. Add an expiration date to client sessions and check it on the server. If a session is not valid (expiration date < current date), the server returns error code 440 and the client creates a new session and re-sends the user's data in the new session.
+2. Verify data integrity: the client digitally signs the data it sends and the server checks the signature's validity (an HMAC over the timestamp, nonce, ciphertext and session identifier was used), including checks of the timestamp window and one-time use of the nonce.
+3. Provide an API that returns information about the current and the invalid (expired) sessions.
+
+Notes: Stack: Node.js, Express, axios, Postman. Control questions cover HTTP verbs and CRUD, the Content-Type header, Postman, RSA and AES principles, symmetric versus asymmetric cryptosystems, the AAA (Arrange-Act-Assert) pattern, the purpose of a session identifier, hash functions and digital signatures.

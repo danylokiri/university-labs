@@ -1,0 +1,14 @@
+Numerical Methods, Lab 7: Solving Differential Equations (Cauchy Problem)
+
+Topic: Euler and Runge-Kutta methods.
+Goal: Prepare a complete program that solves the Cauchy problem by the Euler and Runge-Kutta methods.
+
+Task:
+1. Solve the Cauchy problem:
+     differential equation: y' = 0.2x^2 + 0.3(x^3 + y)
+     initial condition:     y(0) = 0
+     step:                  h = 0.05
+     range:                 [0; 2]
+2. Implement Euler's method (y_{i+1} = y_i + h*f(x_i, y_i)).
+3. Implement the fourth-order Runge-Kutta method (coefficients k1, k2, k3, k4 computed at each step, y_{i+1} = y_i + (k1 + 2k2 + 2k3 + k4)/6).
+4. Let the user enter the initial values and choose the method; print the table of x and y for each method.

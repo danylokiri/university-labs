@@ -1,0 +1,17 @@
+Numerical Methods, Lab 2: Solving a System of Linear Equations by the Simple Iteration Method
+
+Topic: Simple (fixed-point) iteration method for a system of four linear equations.
+Goal: Develop a program that solves a system of four linear equations with four unknowns by the simple iteration method, to determine the polymer content in the materials of a lamination film.
+
+Task:
+1. Problem statement: the content of polymers in the film materials is described by the system
+     5x1 +  x2 -  x3 +  x4 = 42
+      x1 - 4x2 +  x3 -  x4 = 8
+     -x1 +  x2 + 4x3 +  x4 = 1
+      x1 + 2x2 +  x3 - 5x4 = 16
+   with the initial approximation x(0) = (21, 1, 2, 0.5).
+2. Find a solution of the system such that the thickness of the produced film (taken as x1 + x2 + x3 + x4) lies in the range from 17 to 50 microns.
+3. Implement the simple iteration method in a program: iterate until the difference between successive approximations is below the tolerance 10^-5 or the maximum number of iterations (1000) is reached.
+4. Allow the initial data to be entered from the console or read from a file, with validation of the input and error messages.
+
+Notes: If no solution with a thickness in the required range exists, the program has to report it.

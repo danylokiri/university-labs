@@ -1,0 +1,9 @@
+Practical 6 - Efficiency of Heap Sort and Quick Sort
+
+Topic: Comparative study of heap sort and quick sort
+Goal: Obtain practical confirmation of the theoretical efficiency estimates of the algorithms for the "best", "worst" and "average" cases.
+
+Task:
+Carry out a comparative study of the efficiency of the heap sort and quick sort algorithms (Heap and Quick sort), following a given methodology for testing the efficiency of algorithms. The main task is to obtain practical confirmation of the theoretical efficiency estimates for the "best", "worst" and "average" cases.
+
+Notes: Present a screenshot of the program running, the tables of the source results, the graphs for quick sort (best, worst and average case) and the graphs for heap sort (best, worst and average case).

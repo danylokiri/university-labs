@@ -1,0 +1,17 @@
+Practical 5 - Efficiency of the Bubble Sort Algorithm
+
+Topic: Experimental and theoretical analysis of Bubble Sort
+Goal: Investigate the efficiency of Bubble Sort in the worst, best and average cases, both by measuring running time and by counting operations.
+
+Task:
+1. Implement the Bubble Sort algorithm.
+2. Select input data for determining the running time in:
+   - the worst case;
+   - the best case;
+   - the average case.
+   Measure the sorting time in practice.
+3. Count the number of comparison and swap operations, and thereby determine the theoretical complexity of the algorithm (for the worst/best/average case).
+4. Plot graphs of the time spent.
+5. Build a table of the complexity estimate.
+
+Notes: Present the source code, screenshots of the program running, the table of results and the table of the complexity estimate.

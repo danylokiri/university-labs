@@ -1,0 +1,28 @@
+Lab 2 - Analysis of the structure of Bitcoin transactions; software implementation of the block and transaction primitives
+
+Topic: Structure of Bitcoin transactions; Block and Transaction primitives in Java
+Goal: Get familiar with the structure of Bitcoin transactions and develop a software implementation of the block and transaction primitives in Java (or another language of your choice).
+
+Task:
+1. Develop a class Transaction with approximately the following fields:
+   - input address of the sender (input);
+   - output address(es) of the recipient(s) (output(s));
+   - transfer amount (amount);
+   - transaction creation timestamp (txTimestamp);
+   - transaction hash (txHash);
+   - digital signature.
+   Add constructors, setters, getters and toString(), and a method to verify the hash value and the digital signature of the transaction.
+2. Develop a class Block with approximately the following fields:
+   - protocol version (version);
+   - hash of the previous block header (prevHash);
+   - timestamp;
+   - mining difficulty target;
+   - nonce;
+   - Merkle root (MerkleRoot);
+   - transactions as a Merkle tree (hash tree);
+   - digital signature.
+   Add constructors, setters, getters and toString(). Also create a method that generates the block header hash from all its attributes, and a method to verify the block (correctness of the header hash, the Merkle root and the digital signature). Other helpful methods may be added.
+3. Develop a class Blockchain whose main field is a list of blocks (for example, List<Block>). Add a constructor and methods to add a new block and to get the last (or a given) block of the chain. Other methods may be added if needed.
+4. Test the classes: create several blocks, each containing several transactions, and test the verification methods for transactions, blocks, their hash values and digital signatures.
+
+Notes: Language: Java (or another of your choice).

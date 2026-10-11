@@ -1,0 +1,21 @@
+Lab 5 - Stack and Queue
+
+Topic: Stack and queue implemented as linked data structures
+Goal: Implement a stack and a queue of data with functions, a menu interface and text-file input/output.
+
+Task:
+The work consists of 2 individual tasks:
+1. Individual task 1 - Stack (a stack of integers; a second stack is formed from the elements of the first one that are less than 10).
+2. Individual task 2 - Queue (a queue of average scores of groups, at least 2 groups; the group with the highest average score is found and reported).
+
+Requirements:
+1. Perform the tasks in the form of an interface menu.
+2. Enter the information into the source stack and queue in two ways (for numbers, three ways):
+   - reading from a text file;
+   - input from the keyboard;
+   - for numerical data, automatic input (random values).
+3. Perform all operations with the structures through functions.
+4. Print every transformation.
+5. Write all final stacks and queues to text files.
+
+Notes: Present the task statement, screenshots of all intermediate results of the program, the program source files (*.c), the source data files and the result files (*.txt).

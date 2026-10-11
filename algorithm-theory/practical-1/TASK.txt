@@ -1,0 +1,14 @@
+Practical 1 - Euclid's Algorithm and the Sieve of Eratosthenes
+
+Topic: Greatest common divisor and generation of prime numbers
+Goal: Implement Euclid's algorithm (greatest common divisor of two integers, GCD) and the Sieve of Eratosthenes (finding all primes up to an integer n), and describe each algorithm.
+
+Task:
+Implement Euclid's algorithm and the Sieve of Eratosthenes. For each of the algorithms:
+1. Develop a flowchart of the algorithm.
+2. Give a textual step-by-step description of the algorithm.
+3. Implement the algorithm as a function in C and give examples of how it works.
+
+Bonus: find, describe and implement other variants of the "sieve" besides the Sieve of Eratosthenes mentioned above (by the same scheme: +2 points for each sieve - 1 point for the flowchart and description, 1 point for the implementation).
+
+Notes: Besides the two required algorithms, the work also covers trial division (primality test by checking divisors up to the square root), the Sieve of Atkin and the Sieve of Sundaram as additional variants.

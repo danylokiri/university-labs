@@ -1,0 +1,20 @@
+Lab 3 - Software implementation of the Proof-of-Work algorithm and a prototype blockchain network
+
+Topic: Proof-of-Work algorithm and a prototype blockchain network
+Goal: Develop a software implementation of the Proof-of-Work mining algorithm in Java (or another language of your choice), using the results of the previous lab, and create and run a test blockchain network.
+
+Task:
+Add a miner node class (Node) to the classes that implement the transaction, block and blockchain. Its main field is a Blockchain object (a local copy of the blockchain) and its main method is mineBlock(), which creates blocks (the implementation of the mining algorithm).
+
+1. Create a candidate block:
+   - build the block header: previous block hash, Merkle root (combined hash of all transactions in the block), timestamp, difficulty target (shows how hard it is to find a valid hash, for example a hash with many leading zeros) and nonce (starts at 0 and changes during mining);
+   - hash the block header with SHA-256 (fixed-size 256-bit output);
+   - compare the hash with the difficulty target: if it satisfies the criterion (required number of leading zeros) the block is valid, otherwise change the nonce and try again.
+2. Nonce adjustment: increase the nonce by one for every new hashing attempt.
+3. Choose the difficulty target: the number of leading zeros must be chosen so that a valid hash can be found on your computer in acceptable time (for example, a few seconds). Optionally analyze how block mining time changes as difficulty increases.
+4. Simulate the network in a separate class in main(). Generate enough transactions for the miners to include in blocks (input, output and amount may be random). Choose one of the options:
+   - Option 1: create several nodes (Node instances) that create blocks one after another and "broadcast" them (simulated) to all other nodes, which verify them and add each block to their own local blockchain.
+   - Option 2: create several nodes that mine blocks in parallel in separate threads (concurrently) and "broadcast" them (simulated) to all other nodes, which verify them and add them to their local blockchains.
+   - Option 3: implement a prototype P2P network using sockets.
+
+Notes: Language: Java (or another of your choice). Option 1 was implemented.

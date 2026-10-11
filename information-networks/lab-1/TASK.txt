@@ -1,0 +1,13 @@
+Lab 1 - Introduction to Cisco Packet Tracer and building an elementary computer network
+
+Topic: Getting to know Cisco Packet Tracer and building an elementary computer network with it
+Goal: Get familiar with Cisco Packet Tracer, which allows emulating computer networks, configuring network elements and studying the details of communication between network devices, including the work of various protocols and the most useful network commands.
+
+Task:
+1. Create a computer network: computer - router.
+2. Create a computer network: 5 computers - switch - router.
+3. Investigate the operation of the ICMP protocol in a network connected by a switch (simulation mode).
+4. Investigate the operation of the ICMP protocol in a network connected by a switch and a hub; explain the difference between a switch and a hub.
+5. Answer the control questions: network components; router versus switch; a class C network; IP address; MAC address; gateway; hub versus switch; the command to check host availability (ping); the command to find the current IP address (ipconfig / ifconfig / ip addr).
+
+Notes: Tool: Cisco Packet Tracer (the .pkt project files are not included in the repository).

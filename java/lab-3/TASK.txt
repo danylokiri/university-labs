@@ -1,0 +1,14 @@
+Lab 3 - Java and XML
+
+Topic: Java and XML (SAX and DOM parsers, XSD validation)
+Goal: Practice processing a large XML dataset with SAX and DOM parsers and validating it against an XSD schema.
+
+Task:
+The data source is the open dataset "Popular Baby Names" (New York City, XML format, version of 3 March 2023, file Popular_Baby_Names_NY). Each record contains: date of birth, gender, ethnicity of the mother, the child's name, the count of children with this name and the rating of the name in the corresponding group. Analyze the data, select only the information needed for further work and perform the following:
+1. Write a program that prints part of the XML document using a SAX parser without validation, to study its structure and content; obtain programmatically the list of all tag names present in the document.
+2. Based on a small characteristic fragment, create an XSD schema of the document, create a validator and check whether the structure of the document was understood correctly.
+3. Write a program that uses a SAX parser without validation to obtain the names of all ethnic groups present in the document.
+4. Write an application that selects from the whole XML document a given number of the most popular names in a given ethnic group, keeping the name, gender, count and rating; creates corresponding Java objects to store this information; and sorts it by ascending rating number. Save the selected and sorted information to a new XML file using a DOM parser.
+5. Read this new document with a DOM parser and print the information stored in it.
+
+Notes: Course: Cross-platform programming. Input: Popular_Baby_Names_NY.xml (large dataset); a schema file Popular_Baby_Names_NY.xsd and the output file popular_baby_names.xml are in the folder.

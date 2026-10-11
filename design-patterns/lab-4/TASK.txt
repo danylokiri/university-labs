@@ -1,0 +1,19 @@
+Lab 4 - Spring Boot and working with a database
+
+Topic: Spring Boot and working with a database
+Goal: Learn to connect a Spring Boot application to a relational database (MySQL) using JPA and to display database data on a web page.
+
+Task:
+1. Create a Spring Boot project and add dependencies for the web interface, Spring Data JPA and the MySQL driver to pom.xml.
+2. Set the database connection parameters (URL, user name, password) in application.properties.
+3. Set up a local MySQL server with phpMyAdmin (the methodology suggests OpenServer; Docker containers with MySQL and phpMyAdmin were used instead). Create the database (my_db) and set the table encoding to utf8mb3_general_ci so that Ukrainian and Russian characters display correctly.
+4. Create the entity classes in a models package, with fields matching the table columns, constructors, getters and setters, annotated with @Entity, @Id, @GeneratedValue: Developer, Genre, Game, GameDetails.
+5. Reproduce the relations between the tables in the Java code: in Game, a developer field (@ManyToOne), a genre field (@ManyToOne) and a GameDetails object (@OneToOne, matching table game_details).
+6. Disable the console functionality from the previous lab (the Scanner input prevents the application from starting normally).
+7. Create a repository for each table (CrudRepository-based) so data can be accessed without writing SQL.
+8. Create a controller that reads the records of the game table and passes them to a template.
+9. Create an HTML template (game-main.html) that outputs the data as a table: game data plus related data from other tables (platform, genre, game details, price, age rating). Open /games and check that it works.
+10. Add some records manually through phpMyAdmin and check that they appear on the page after refresh.
+11. Answer the control questions (how to connect a database to Spring; what JDBC is; how to connect local servers; which annotation marks a model class; what phpMyAdmin is).
+
+Notes: Builds on the project from the previous labs. The goal line in the source report repeats the Lab 3 goal, so the goal here is taken from the topic and the work described. The task statement in the source report is implicit; the list above is reconstructed from it.

@@ -1,0 +1,28 @@
+Practical Work 5 - CASE Tools for Logical and Physical Data Modelling
+
+Topic: CASE tools for modelling logical and physical database models (CA ERwin Data Modeler).
+Goal: Learn to use the CASE tool CA ERwin Data Modeler (or a similar application) to design and
+document databases: create logical and physical database models, build relationships between
+entities, and generate SQL scripts for the target DBMS.
+
+Task:
+1. Take a test that checks initial knowledge. Add a screenshot of the result to the report.
+2. Study the theoretical material on working in the ERwin environment.
+3. Build the logical database model in ERwin. Prepare a report in which every model has a short
+   description and an analysis of its advantages and disadvantages. Carry out the following steps:
+   - Iteration 1: identify entities + IDEF0 (reuse from previous practical works);
+   - Iteration 2: define entity attributes based on the IDEF3 and DFD models (reuse from
+     previous practical works);
+   - Iteration 3: add and label relationships (create identifying and non-identifying
+     relationships between entities, with their properties);
+   - Iteration 4: replace many-to-many relationships with associative entities;
+   - Iteration 5: add recursive relationships if needed; if not, state that in the report;
+   - Iteration 6: bring the model to 1NF;
+   - Iteration 7: bring the model to 2NF;
+   - Iteration 8: bring the model to 3NF and BCNF.
+4. Publish on your personal git page only the result, i.e. the logical model brought to third
+   normal form.
+5. Build the physical database model in ERwin and generate SQL scripts for the chosen target DBMS
+   from it.
+
+Notes: Subject area of the variant: Farm. The work builds on the previous practical work.

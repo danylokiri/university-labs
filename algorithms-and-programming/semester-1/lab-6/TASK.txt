@@ -1,0 +1,12 @@
+Lab 6 - Multidimensional Arrays
+
+Topic: Two-dimensional arrays (matrices)
+Goal: Practise creating and processing matrices in menu-driven C programs, using functions.
+
+Task:
+1. For a matrix C of size 11x8, find the number of elements in each row that are greater than the arithmetic mean of the elements of that row.
+2. Sort the even-numbered columns of a matrix in ascending order.
+3. In a given integer square matrix of order N, swap the column containing the element with the largest value with the column containing the element with the smallest value (it is assumed that such elements are unique).
+4. Given a matrix of size M x N, swap the column number N with the first of the columns that contain only negative elements. If there are no such columns, output the matrix unchanged.
+
+Notes: The matrices are filled with random values within a user-given range. Present the source code and screenshots of the program output.

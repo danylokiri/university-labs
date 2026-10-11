@@ -1,0 +1,19 @@
+Lab 2 - Working with GitLab and Git; uploading a project to a repository
+
+Topic: Working with GitLab and Git; uploading a project to a repository
+Goal: Get familiar with GitLab and Git and learn how to upload a project to a repository.
+
+Task:
+1. Register a GitLab account and create a new private project (repository).
+2. Clone the created repository to a local computer over HTTPS.
+3. Open the cloned directory in an IDE and import the project from Lab 1 into it.
+4. Generate a personal access token and use it in the IDE to authenticate and push changes to GitLab.
+5. Create a new branch (lab2) from main.
+6. Make changes in the new branch, then commit and push them to the remote repository.
+7. Make further changes in the branch (for example, print different emoticons in the code) to demonstrate parallel work on branches.
+8. Create a Merge Request to merge lab2 into main.
+9. Make different changes in main in parallel so that a merge conflict appears.
+10. Resolve the conflict with the conflict resolution tool, combining the working code from both branches, and complete the merge.
+11. Answer the control questions (what Git and GitLab are; Git versus centralized version control systems; ways to get a project from a repository; purpose of branches; causes of merge conflicts; ways and tools to resolve them).
+
+Notes: Tools: GitLab, Git, IntelliJ IDEA. The task statement in the source report is implicit; the list above is reconstructed from the stated goal and the required stages of work.

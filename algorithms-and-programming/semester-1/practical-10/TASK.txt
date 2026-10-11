@@ -1,0 +1,18 @@
+Practical 10 - One-Dimensional Arrays
+
+Topic: Functions for processing one-dimensional arrays (input, random initialisation, sum, maximum, sorting)
+Goal: Practise creating, printing and processing one-dimensional arrays in C using functions and a menu.
+
+Task:
+1. Write a program that performs the following operations (functions):
+   - input of a one-dimensional array of N integers from the keyboard and printing it;
+   - initialisation of a one-dimensional array of N random integers and printing it;
+   - computing the sum of the array elements and printing it;
+   - finding the element with the maximum absolute value and its index; the found values are printed;
+   - sorting the array in descending order and printing it.
+2. Write a program that performs the following operations (functions):
+   - input of a one-dimensional array of N integers from the keyboard;
+   - initialisation of a one-dimensional array of N random integers and printing it;
+   - an individual task: compute the arithmetic mean of all elements of the given array D; for negative elements use their absolute values.
+
+Notes: Draw a flowchart; present the source code and screenshots of the program output.

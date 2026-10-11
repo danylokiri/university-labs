@@ -1,0 +1,32 @@
+Laboratory Work 3 - Creating Queries in MS SQL (Multi-table Queries, Cascades, Sorting, Performance)
+
+Topic: Creating queries in MS SQL.
+Goal: Learn to write multi-table queries, to use cascading actions to maintain data integrity, to
+sort query results, to use boolean and relational operators for filtering, to apply different kinds
+of JOIN, and to analyse the performance of SQL queries.
+
+Task:
+1. Take the test and add a screenshot with the score to the report.
+2. For your main variant (the one used in practical works 3, 4, 5 and 6), add the description of the
+   subject area and the logical and physical models (from practical work 5).
+3. Use a MS SQL Server instance deployed in Docker and create the database with the SETUP.SQL and
+   INSERT.SQL scripts.
+4. Multi-table queries (subqueries, JOIN, UNION): write several SQL queries, add screenshots of the
+   queries and their results to the report, and keep the code in QUERY.SQL.
+5. Cascading actions: create tables with FOREIGN KEY constraints with ON DELETE CASCADE and
+   ON UPDATE CASCADE; write several queries that check cascading updates and deletes; add
+   screenshots; keep the code in QUERY.SQL.
+6. Sorting (ORDER BY): write several queries ordering data ascending / descending by different
+   criteria; add screenshots of the results; keep the code in QUERY.SQL.
+7. Boolean (AND, OR, NOT) and relational (=, >, <, >=, <=, <>) operators: write several queries,
+   demonstrate each with screenshots; keep the code in QUERY.SQL.
+8. Extended JOIN (INNER, LEFT, RIGHT, FULL JOIN): write several queries on the theme of the variant.
+9. GROUP BY with HAVING combined with JOIN: write 5 queries on the theme of the variant.
+10. Query performance analysis: use the execution plan (EXPLAIN / Execution Plan in MS SQL); add
+    screenshots with explanation and analysis of the previous queries.
+11. Keep the scripts in a repository: SETUP.SQL (create tables / alter structure), INSERT.SQL
+    (insert data), UPDATE.SQL (change / update / delete data), QUERY.SQL (queries).
+12. Run the queries for your variant according to the subject-area description of the main variant.
+13. Add conclusions and finalise the report.
+
+Notes: Subject area of the variant: Farm. Tools: MS SQL Server (Docker).

@@ -1,0 +1,10 @@
+Exam - Algorithms and Programming (Practical Tasks)
+
+Topic: Processing one-dimensional and two-dimensional arrays in C
+Goal: Demonstrate the ability to implement array-processing functions and test them on several data sets.
+
+Task:
+1. Given a one-dimensional array of integers and a digit k, implement a function that computes the product of the array elements whose values end with the digit k. Show the results for 3 different data sets.
+2. Given a two-dimensional array of integers of size N x M, implement a procedure that determines the coordinates of the maximum element of the array (by the condition, such an element is unique in the array). Show the results for 3 different data sets.
+
+Notes: For each task provide the source code of the program in a file and a screenshot of the program running.

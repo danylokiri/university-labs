@@ -1,0 +1,11 @@
+Practical 2 - Making Change
+
+Topic: Counting combinations of coins (brute force)
+Goal: Count the number of ways to make a given amount from coins using a straightforward exhaustive search, and measure how large an amount it can handle in a limited time.
+
+Task:
+Write a program that determines the number of different combinations of American coins (1 cent, 5 cents, 10 cents, 25 cents and 50 cents) that can add up to a given amount. That is, the amount (in cents) is entered into the program, and the program outputs the number of combinations that make up the given amount.
+
+Determine experimentally the maximum amount that the program can "change" in 1 minute of running on your computer. Note that you do not yet know any "clever" and fast algorithms for this problem - use only "brute force"; otherwise the program would finish in a few seconds.
+
+Notes: Present the source code and screenshots of the program working, including the amount closest to the maximum that the program handles in one minute.

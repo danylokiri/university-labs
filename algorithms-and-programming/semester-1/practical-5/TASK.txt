@@ -1,0 +1,18 @@
+Practical 5 - Conditional Operators in C
+
+Topic: Conditional statements and operations (if / else if)
+Goal: Practise branching: evaluating a piecewise function and checking whether a point belongs to a region of the plane.
+
+Task:
+1. Write a program (source file Pr51) that computes the function
+      f(x) = 0      for x < -2,
+      f(x) = x^3    for -1 < x < 1,
+      f(x) = 0      for x > 2,
+      f(x) = x      (linear) for 1 < |x| < 2.
+   Draw the graph of the function on the interval |x| < 5. Test the program by computing the function at x = -2.5, -1.5, -1, -0.5, 0, 0.5, 1, 1.5, 2.5. Draw a flowchart.
+2. Draw a flowchart and write a program (source file Pr52) that checks whether a point with coordinates (x, y) belongs to the region of figure A on the plane. If the point belongs to A, print "The point belongs to the figure A"; otherwise print "The point is outside of the figure A". Figure A is the bounded region between:
+   - a circle of radius 1 centred at the origin;
+   - a square with side 1, also centred at the origin, whose sides form a 45-degree angle with the coordinate axes.
+   Draw figure A. Test the program on 4 points with different coordinates: two points inside figure A and two points outside it.
+
+Notes: Include <math.h> if the square root function sqrt(x) is used. Present the source code, flowcharts and screenshots of the results.

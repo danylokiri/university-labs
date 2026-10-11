@@ -1,0 +1,16 @@
+Lab 6 - Parallel Definite Integral Computation with MPI Collective Operations
+
+Topic: Data exchange in MPI. Parallelising a program that computes a definite integral using collective communication procedures.
+Goal: Continue studying the MPI communication functions, in particular collective operations, and learn techniques for using them to distribute data and computation among parallel processors.
+
+Task:
+1. Study and run the example program given in the assignment, making the changes necessary for C++.
+2. Create sequential programs that compute the definite integral by the trapezoidal rule and by Simpson's rule for the function given by the variant.
+3. Run the programs and measure execution time. Choose the input data yourself, run a series of experiments, plot graphs and draw conclusions.
+4. Parallelise both programs with MPI. Measure the time spent by the processors on the computation and compare it with the results of step 3.
+5. Run a series of experiments and determine the efficiency of the algorithms.
+6. Write a report with conclusions on the effectiveness of the different ways of parallelising the original sequential code and on the implementation effort they require. Plot graphs.
+
+Report requirements: title page; listings of the sequential and MPI programs; screenshots of results; estimate of parallel execution time and graphs; answers to 6 control questions (basis of the trapezoidal rule; basis of Simpson's rule; idea of parallelising each of them; kinds of message exchange; components of a message; the function giving the process rank and count); conclusions.
+
+Notes: Integral computed: I = integral from 0 to pi of (x^2 - 3x + 2) * cos(x) dx. Analytic value: 6 - 2*pi = -0.28318530717958623. Numbers of subintervals n = 10^6, 5*10^6, 10^7, 5*10^7, 10^8 on P = 1, 2, 4, 8 processes.

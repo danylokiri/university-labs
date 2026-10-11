@@ -1,0 +1,12 @@
+Machine Learning, Lab 5: Fully Connected and Convolutional Neural Networks
+
+Topic: Image classification with fully connected and convolutional networks.
+Goal: Train the same data (with different data preparation stages) with a fully connected and with a convolutional neural network.
+
+Task:
+1. Prepare your data: create or download an image dataset into class folders, preprocess it and rescale it.
+2. Train a fully connected neural network on the selected dataset in a manner similar to the example.
+3. Train a convolutional neural network on the selected dataset in a manner similar to the example.
+4. Compare the two models (loss and accuracy curves over epochs).
+
+Notes: Dataset used: a custom set of two image categories (about 25 images each), images resized to 128x128 and rescaled; binary classification with a sigmoid output (Keras).

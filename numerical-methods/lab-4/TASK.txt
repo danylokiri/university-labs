@@ -1,0 +1,13 @@
+Numerical Methods, Labs 4-5: Interpolation and Approximation
+
+Topic: Lagrange interpolation and least-squares polynomial approximation of degrees 1, 2 and 3.
+Goal: Apply interpolation (Lagrange polynomial) and approximation by polynomials of the first, second and third degree to a set of data.
+
+Task:
+1. Problem statement: the number of rains recorded in a city in May-September 2024 is known: 3, 5, 6, 2, 3. Find the interpolation and approximation functions for these data.
+2. Build the Lagrange interpolation polynomial that passes through all given points.
+3. Build approximating polynomials of the first (linear), second (quadratic) and third (cubic) degree by the least-squares method; solve the resulting systems of linear equations for the coefficients by the Gauss method.
+4. Evaluate all four functions at a given value of the argument.
+5. Allow the input to be entered from the console or read from a file.
+
+Notes: The program uses the data as a table of points (x, y) with consecutive integer x values.

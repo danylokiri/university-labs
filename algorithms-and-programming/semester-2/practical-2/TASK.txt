@@ -1,0 +1,14 @@
+Practical 2 - Character Strings
+
+Topic: Processing character strings in C
+Goal: Practise working with strings: splitting a string into words and transforming words by a rule.
+
+Task:
+Given a string consisting of words separated by spaces (one or several), print all words that differ from the last word, first transforming each of them by the following rule: if a word has an odd length, delete its middle letter.
+
+General requirements:
+a) the operations are invoked through a menu in a console application;
+b) if the task asks to "obtain a string" or "transform a string", then at the end of the program a string that satisfies the given condition must be produced, and it is then printed on the screen for control;
+c) if the required transformation can be performed on the source string without creating a new one, it must be done that way.
+
+Notes: Present the source code and a screenshot of the program running.

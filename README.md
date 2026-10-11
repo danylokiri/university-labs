@@ -24,4 +24,6 @@ These are learning exercises, not production code. My larger projects live in se
 | [`cloud-computing`](cloud-computing) | Cloud computing lab | HTML, JSON |
 | [`web`](web) | Web development: HTML, CSS, JavaScript, canvas | HTML, CSS, JS |
 
+Labs are grouped by semester and numbered (`lab-N`, `practical-N`, `coursework`, `exam`). Most lab folders contain a `TASK.txt` with the assignment translated into English. Where the original text was only available as part of a finished report or as images, the statement was reconstructed from it and this is noted in the file.
+
 Large sample datasets, reports and build artifacts are not included.

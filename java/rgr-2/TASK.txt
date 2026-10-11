@@ -1,0 +1,14 @@
+Calculation and graphic assignment 2 - Java Beans
+
+Topic: JavaBeans component technology
+Goal: Learn the basics of JavaBeans, the rules for creating JavaBeans components, and their configuration and use in development environments (including integration with a graphical user interface).
+
+Task:
+1. Create two JavaBeans components for representing the noisy experimental data set from the previous assignment:
+   1) a component for the tabular representation of the data set and working with it: display the noisy experimental data as a table, allow editing the data values in the table, and allow the user to add and delete rows; changes of the data must be observable so that the graph can be updated;
+   2) a component for the graphical representation of the data set: display a graph of the experimental data and allow the user to add and delete data markers.
+2. Using the created components, write an application with a graphical user interface for viewing and editing the data sets stored in XML files and saving the updated data back to XML files. Use the visual GUI editor of the chosen development environment. The table must allow not only displaying but also adding, deleting and editing data, and changes must be reflected on the graph immediately. For working with XML files use the classes developed in the previous practical work (SAX parser for reading data, DOM object for saving data).
+3. Package the components (each component as a separate project) and test them; then complete the helper classes and package the finished application.
+4. Test that the components work correctly and that the data are displayed and updated in the graph and the table.
+
+Notes: Course: Cross-platform programming. The work is planned for two weeks: week 1 - basic components, packaged and tested; week 2 - helper classes and the complete packaged application. Input data sets are stored in XML files (1.xml, 2.xml).

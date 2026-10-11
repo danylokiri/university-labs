@@ -1,0 +1,20 @@
+Lab 4 - Nested Loops
+
+Topic: Nested loops, base conversion, series and products
+Goal: Practise implementing algorithms with nested loops and series evaluation with a given accuracy.
+
+Task:
+1. Find all pairs of natural numbers a and b such that if a is squared and the decimal notation of b is appended on the right of the result, the number obtained is exactly three times greater than the product a*b. Draw a flowchart.
+2. Write a program that converts a number to the numeral system with base k. The input is a number N in the decimal system; the output is the number N converted to the base-k system. The program must work for values of k from 2 to 16 inclusive. Use the flowchart from Lab 1 (writing a given number in an arbitrary numeral system). Run a test calculation for N = 332, k = 8. Draw a flowchart.
+3. Compute and print in a table the values x, F(x), S(x) and the difference between them, for
+      F(x) = sum for k = 1 to infinity of (-1)^(k+1) * k * x^(k-1) * (sum for n = 1 to k of 1/n),   epsilon = 10^-4,
+      S(x) = F(x) - (1 - ln(1 + x)) / (1 + x)^2,
+      x = 0 ... (0.1) ... 0.9.
+   Draw a flowchart.
+4. Compute
+      R = product for k = 0 to 5 of (1 + x/2)^k + F(x),
+      where F(x) = 3 - e^(3x) for x > 0, and F(x) = 3 + e^(3x) for x <= 0,
+      for x = -0.2 ... 0.2 with step 0.05.
+   Print x, F(x) and R(x). Draw a flowchart.
+
+Notes: Present the source code, flowcharts and screenshots of the program output.

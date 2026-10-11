@@ -1,0 +1,13 @@
+Practical 8 - Text Files
+
+Topic: Reading and writing text files in C
+Goal: Practise creating, reading, appending to and processing text files from a program.
+
+Task:
+1. Create a text file in Notepad and write a word into it, for example WORD; save it. Write a program that reads this word and then appends it to the end of what is already in the file. Close the program. Open the file in Notepad and check that the record is correct; the result should be: WORDWORD. Run the program again and view the file in Notepad.
+2. Create a text file in the program and write a sentence into it (words separated by spaces), for example:
+      may Force be with you
+   Open the file in Notepad (without closing the program), check that the record is correct and close Notepad. From the program, read the first word and append this word after the sentence, separated by a space. The result should be: may Force be with you may. View the file in Notepad again. Close Notepad. Close the program.
+3. Write a program that reads text from a file (the file contains several sentences) and prints it on the screen. After each sentence, the number of characters in it is printed in parentheses.
+
+Notes: Present the source code and screenshots of the program running and of the files it creates.

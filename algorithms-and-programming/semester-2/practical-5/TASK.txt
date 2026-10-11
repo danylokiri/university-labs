@@ -1,0 +1,13 @@
+Practical 5 - Static Array of Structures
+
+Topic: Structures and static arrays of structures
+Goal: Practise declaring a structure and managing a static array of structures through a menu.
+
+Task:
+Declare a structure "device" with 4 members: inventory number, name, year of manufacture, cost. Declare an array of 10 "device" structures. Implement the following functionality:
+1. Add a device (every inventory number is unique);
+2. Delete a device (by inventory number);
+3. Print the list of devices (as a table with columns: number, name, year, cost);
+4. Exit.
+
+Notes: Present the source code and screenshots of the program running.

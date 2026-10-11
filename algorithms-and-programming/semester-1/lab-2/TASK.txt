@@ -1,0 +1,11 @@
+Lab 2 - Programming Branching
+
+Topic: Conditional statements and switch in C
+Goal: Practise implementing branching algorithms: arithmetic conditions on digits, membership of a point in a region, and selection by menu number.
+
+Task:
+1. Given a four-digit integer, is it true that the sum of its digits is greater than a given number A?
+2. Check whether the point M(x, y) falls into the given region. The variables x and y are real. The region is the shaded triangle in the plot, with its apex at the origin pointing up and bounded above by the lines y = -|x|. Draw a flowchart.
+3. Write a program that, given the number of a unit of measurement (1 - decimetre, 2 - kilometre, 3 - metre, 4 - millimetre, 5 - centimetre) and the length L of a segment, outputs the corresponding length of the segment in metres. Draw a flowchart.
+
+Notes: Present the source code, flowcharts and screenshots of the program output.

@@ -1,0 +1,13 @@
+Lab 1 - Java Reflection
+
+Topic: Java Reflection
+Goal: Study the reflection capabilities of the Java API.
+
+Task:
+1. Write a method that, given the full name of a type as a string (or a previously created Class object), returns a string with its full description: the package in which the class is defined, the modifiers and name of the analyzed class, its base class, the list of implemented interfaces, and the list of all fields, constructors and methods declared in the class together with their characteristics. The program must accept both primitive types and reference types (arrays, classes and interfaces). To check it, write a console program and a program with a graphical user interface.
+2. Write a method that, for a given object, outputs its real type and state: the list of all fields declared in the class with their values, and the list of public methods declared in the class. The user can view this list, select only public methods without parameters, call them on the object and view the result of the call.
+3. Write a method that receives an object, a method name as a string and a list of parameters required to call the method. If the method can be called on the given object, output the result; otherwise throw a FunctionNotFoundException.
+4. Write a program that allows creating one-dimensional arrays and matrices of both primitive and reference types (specified while the program is running). The program must be able to resize arrays and matrices while keeping their values, and convert arrays and matrices to a string.
+5. Write a program that demonstrates the use of "universal" dynamic proxy objects for profiling a method (prints the method execution time) and for tracing a method (prints the method name, its parameters and the computed value).
+
+Notes: Course: Cross-platform programming.
