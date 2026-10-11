@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="facebook_logo"
+        src="assets/img/facebook_logo.svg"
+        alt="logo"
+      />
+    </header>
+    <div class="container">
+      <main class="center column">
+        <article>
+          <h1>slider</h1>
+        </article>
+        <button class="close_slider" role="button">Hide/Show</button>
+        <button id="autoToggle" class="auto_slider" role="button">
+          Auto off
+        </button>
+        <div class="slider-general">
+          <div class="slider">
+            <img class="slider-img" src="public/images/1.jpg" />
+            <img class="slider-img" src="public/images/2.jpg" />
+            <img class="slider-img" src="public/images/3.jpg" />
+
+            <div>
+              <img
+                style="opacity: 1; height: 20px"
+                class="prev controlls"
+                src="public/images/left.png"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <img
+                style="opacity: 1; height: 20px"
+                class="next controlls"
+                src="public/images/right.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="slider-dots"></div>
+        </div>
+
+        <script src="assets/script/script.js"></script>
+      </main>
+      <nav class="left column">
+        <h3>Left heading</h3>
+        <ul>
+          <li><a href="index.html">Main</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="slider.html">Slider</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="canvas.html">about</a></li>
+        </ul>
+      </nav>
+      <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+      </div>
+      <div class="push"></div>
+    </div>
+    <div class="footer-wrapper">
+      <footer class="footer">
+        <img
+          class="facebook_logo"
+          src="assets/img/facebook_logo.svg"
+          alt="logo"
+        />
+      </footer>
+    </div>
+  </body>
+</html>
