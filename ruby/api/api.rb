@@ -4,7 +4,7 @@ require "csv"
 
 #https://openweathermap.org/api/geocoding-api, https://openweathermap.org/current#parameter, https://lostisland.github.io/faraday/#/getting-started/quick-start, https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html
 def take_inf(city, country)
-  key = "c7cac9c99d30354e95ba29503b470a51"
+  key = ENV.fetch("OPENWEATHER_API_KEY") # set your own OpenWeatherMap API key in the environment
   conn = Faraday.new(
     url: "https://api.openweathermap.org",
     params: { appid: key, units: "metric", lang: "ua" },

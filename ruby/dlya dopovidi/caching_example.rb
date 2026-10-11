@@ -2,7 +2,7 @@ require "faraday"
 require "json"
 require "time"
 
-$key = "c7cac9c99d30354e95ba29503b470a51"
+$key = ENV.fetch("OPENWEATHER_API_KEY") # set your own OpenWeatherMap API key in the environment
 $url = "https://api.openweathermap.org"
 CACHE = {}
 
